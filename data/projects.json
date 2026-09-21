@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "snapshot_date": "2026-09-21",
+    "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。",
+    "entry_count": 64
+  },
+  "entries": [
+    { "name": "browser-use/jev-ultrafast", "url": "https://github.com/browser-use/jev-ultrafast", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": "Python", "stars": 13826, "description": "Jev 选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒" },
+    { "name": "trycua/cua", "url": "https://github.com/trycua/cua", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": null, "stars": 25423, "description": "开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型" },
+    { "name": "imanshu03/jev-browser-use", "url": "https://github.com/imanshu03/jev-browser-use", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": "Python", "stars": null, "description": "基于 Jev + CDP/Chromium 的轻量浏览器自动化" },
+
+    { "name": "OpenByteInc/QuantDinger", "url": "https://github.com/OpenByteInc/QuantDinger", "category": "优质开源应用", "subcategory": "交易与金融", "language": "Python", "stars": 11884, "description": "开源 AI 交易操作系统，集成 Jev System One：策略研究、回测、模拟/实盘，可搭多租户交易 SaaS" },
+    { "name": "jarrodwatts/jev-trader", "url": "https://github.com/jarrodwatts/jev-trader", "category": "优质开源应用", "subcategory": "交易与金融", "language": "TypeScript", "stars": 1672, "description": "每个 Monad 区块做一次 Jev 交易决策（Kuru MON-USDC）" },
+    { "name": "SaratAngajalaoffl/jeeva", "url": "https://github.com/SaratAngajalaoffl/jeeva", "category": "优质开源应用", "subcategory": "交易与金融", "language": "TypeScript", "stars": null, "description": "基于 Jev 的中频交易框架" },
+
+    { "name": "tamaratran/fast-jev-compaction", "url": "https://github.com/tamaratran/fast-jev-compaction", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": 5723, "description": "Claude Code 插件：一次 Jev 请求给全部工具调用打分并压缩上下文，保留内容逐字不动" },
+    { "name": "devagrawal09/jev-review", "url": "https://github.com/devagrawal09/jev-review", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": 438, "description": "分阶段代码审查工作流 + 本地仪表盘" },
+    { "name": "dabit3/jev-experiments", "url": "https://github.com/dabit3/jev-experiments", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": 352, "description": "延迟敏感场景的 Jev demo 合集" },
+    { "name": "nozomi-koborinai/jev-spec", "url": "https://github.com/nozomi-koborinai/jev-spec", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": null, "description": "每次 commit 用 Jev 检查代码与 Markdown 规格文档的漂移" },
+    { "name": "maayanlevy/mysql-ailike", "url": "https://github.com/maayanlevy/mysql-ailike", "category": "优质开源应用", "subcategory": "开发者工具", "language": "C++", "stars": null, "description": "MySQL 插件：按自然语言语义过滤数据行" },
+    { "name": "lukstei/slop-grader", "url": "https://github.com/lukstei/slop-grader", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": null, "description": "按规则给文本文件打 slop 分的 CLI" },
+    { "name": "vercel-labs/jev-ai-sdk-form-router", "url": "https://github.com/vercel-labs/jev-ai-sdk-form-router", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": null, "description": "Vercel Labs 官方示例：Jev + AI SDK 把表单提交路由给对的人" },
+
+    { "name": "openlayer-ai/jevals", "url": "https://github.com/openlayer-ai/jevals", "category": "优质开源应用", "subcategory": "评测与护栏", "language": "Python", "stars": 11, "description": "一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上" },
+    { "name": "sagarmainkar/jev-wall", "url": "https://github.com/sagarmainkar/jev-wall", "category": "优质开源应用", "subcategory": "评测与护栏", "language": "Python", "stars": null, "description": "基于 Jev 的 LLM 护栏" },
+
+    { "name": "citegraph", "url": "https://www.citegraph.app/live", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "让多个 AI 引擎逐页对簿公堂的实时引用图谱" },
+    { "name": "jevable-code", "url": "https://altslate-labs.github.io/jevable-code/", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "审计任意仓库里哪些判断可以被 Jev 替换" },
+    { "name": "jevusers.com", "url": "https://jevusers.com", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "第三方生态目录：追踪 400+ 项目、合计 40k+ star，每日更新" },
+
+    { "name": "typesafe-sdk-js", "url": "https://github.com/typesafe-ai/typesafe-sdk-js", "category": "SDK 与集成", "subcategory": "官方", "language": "TypeScript", "stars": 196, "description": "官方 TypeScript/JavaScript SDK（npm @typesafe-ai/sdk）" },
+    { "name": "typesafe-sdk-python", "url": "https://github.com/typesafe-ai/typesafe-sdk-python", "category": "SDK 与集成", "subcategory": "官方", "language": "Python", "stars": 171, "description": "官方 Python SDK" },
+    { "name": "system-one-adapter-python", "url": "https://github.com/typesafe-ai/system-one-adapter-python", "category": "SDK 与集成", "subcategory": "官方", "language": "Python", "stars": 218, "description": "用任意 LLM API 模拟 TypeSafeClient 的 drop-in 适配器" },
+    { "name": "typesafe-ai/skills", "url": "https://github.com/typesafe-ai/skills", "category": "SDK 与集成", "subcategory": "官方", "language": null, "stars": 1390, "description": "官方 Agent Skill：教 Claude Code / Codex 正确使用 System One API" },
+
+    { "name": "langchain-typesafe", "url": "https://pypi.org/project/langchain-typesafe/", "category": "SDK 与集成", "subcategory": "平台官方集成", "language": "Python", "stars": null, "description": "LangChain 官方集成：TypeSafeClassifier + 模型路由中间件" },
+    { "name": "@ai-sdk/typesafe-ai", "url": "https://ai-sdk.dev/docs/ai-sdk-core/evaluation", "category": "SDK 与集成", "subcategory": "平台官方集成", "language": "TypeScript", "stars": null, "description": "Vercel AI SDK 原生 provider（Gateway ID typesafe-ai/jev-latest）" },
+    { "name": "TanStack AI typesafe", "url": "https://tanstack.com", "category": "SDK 与集成", "subcategory": "平台官方集成", "language": "TypeScript", "stars": null, "description": "@tanstack/ai-typesafe：typesafeDecider 提供 decide / choice / score / boolean 四类决策" },
+
+    { "name": "hardkoded/typesafe-sdk-dotnet", "url": "https://github.com/hardkoded/typesafe-sdk-dotnet", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "C#", "stars": 3, "description": ".NET（C#）移植，NuGet TypeSafe.AI.Sdk" },
+    { "name": "nshkrdotcom/typesafe_sdk", "url": "https://github.com/nshkrdotcom/typesafe_sdk", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "Elixir", "stars": 5, "description": "Elixir，Hex typesafe_sdk" },
+    { "name": "Twister915/typesafe-ai", "url": "https://github.com/Twister915/typesafe-ai", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "Rust", "stars": 11, "description": "Rust，async / blocking 双后端" },
+    { "name": "devbackend/jevgo", "url": "https://github.com/devbackend/jevgo", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "Go", "stars": 1, "description": "Go 非官方客户端" },
+    { "name": "QAInsights/typesafe-java-sdk", "url": "https://github.com/QAInsights/typesafe-java-sdk", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "Java", "stars": 1, "description": "Java 非官方 SDK" },
+    { "name": "innocentdiaz/s1_ruby", "url": "https://github.com/innocentdiaz/s1_ruby", "category": "SDK 与集成", "subcategory": "社区语言 SDK", "language": "Ruby", "stars": 2, "description": "Ruby SDK" },
+
+    { "name": "itsmostafa/typesafe-mcp", "url": "https://github.com/itsmostafa/typesafe-mcp", "category": "SDK 与集成", "subcategory": "MCP 与 Agent 工具链", "language": "Go", "stars": 173, "description": "MCP 连接器：让任意 AI agent 直接调用 Jev" },
+    { "name": "jevcore-mcp", "url": "https://www.npmjs.com/package/jevcore-mcp", "category": "SDK 与集成", "subcategory": "MCP 与 Agent 工具链", "language": "TypeScript", "stars": null, "description": "MCP server：ask / rank / check 三个决策工具" },
+
+    { "name": "TianyuCodings/NanoJev", "url": "https://github.com/TianyuCodings/NanoJev", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Python", "stars": 1673, "description": "nano 复刻：并行决策、动态候选、端到端训练管线" },
+    { "name": "jaredpalmer/kev", "url": "https://github.com/jaredpalmer/kev", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Python", "stars": 1539, "description": "基于 Qwen3.5 的微型 Jev-like 决策模型家族，可自训自跑" },
+    { "name": "vinnylarouge/jevlike", "url": "https://github.com/vinnylarouge/jevlike", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Python", "stars": 1132, "description": "Jev-like 决策模型复刻" },
+    { "name": "wfzyx/von", "url": "https://github.com/wfzyx/von", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Python", "stars": 297, "description": "开源 System One 决策模型：sub-15ms、非自回归、本地 drop-in 平替" },
+    { "name": "ekzhang/openjev-sglang", "url": "https://github.com/ekzhang/openjev-sglang", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Python", "stars": 245, "description": "基于开源模型的 Jev 兼容 API 端点（prefill-only）" },
+
+    { "name": "Introducing System One Models & Jev", "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方发布公告，Diogo Almeida 署名（2026-09-15）" },
+    { "name": "docs.typesafe.ai", "url": "https://docs.typesafe.ai", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "文档站（105 页，含 18 个官方 Cookbooks 与 Patterns 模式库）" },
+    { "name": "Jev 1.13 毛刺度说明", "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方模型不擅长什么清单" },
+    { "name": "console.typesafe.ai", "url": "https://console.typesafe.ai", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "API 控制台与 Playground" },
+    { "name": "evals.typesafe.ai", "url": "https://evals.typesafe.ai", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方评测站" },
+    { "name": "typesafe-ai org", "url": "https://github.com/typesafe-ai", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方 GitHub 组织" },
+
+    { "name": "How to Use Jev: A Practical Guide", "url": "https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "最全面的实操文：使用模式、失败模式、48 小时生态盘点" },
+    { "name": "A deep dive into Jev", "url": "https://flaviocopes.com/jev/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "会思考的智能 if 语句：原语、组合模式与局限全覆盖" },
+    { "name": "What Actually Shipped", "url": "https://www.truefoundry.com/blog/typesafe-ai-jev", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "最批判性的第三方分析：官方声称 vs 可验证清单" },
+    { "name": "Jev Explained", "url": "https://www.mindstudio.ai/blog/jev-system-one-model-launch", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "非自回归架构与四个官方 demo 拆解" },
+    { "name": "TypeSafe Jev explained", "url": "https://www.requesty.ai/blog/typesafe-jev-explained", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "原理、定价与接入" },
+    { "name": "AINews: Jev", "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "Latent Space 生态周报" },
+    { "name": "AINews: 6 Clones of Jev in 2 days", "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "开源复刻潮综述" },
+    { "name": "Jev: TypeSafe's System One Model", "url": "https://www.datacamp.com/blog/system-one-models-jev", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "入门教程" },
+    { "name": "An early-access test of Jev", "url": "https://lindfors.no/blog/a-first-look-at-typesafes-jev/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "早期实测：半美分的校准判断" },
+    { "name": "Replacing an agentic classification loop with Jev", "url": "https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "实测用 Jev 替换 agent 分类循环，快 7 倍" },
+    { "name": "TypeSafe Jev Can't See. I Made It Guess Anyway", "url": "https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "边界测试：让看不见的模型猜涂鸦" },
+    { "name": "The State Machine Is the Agent", "url": "https://stacktoheap.com/blog/2026/09/21/the-state-machine-is-the-agent/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "状态机即 Agent" },
+    { "name": "You could have built Jev", "url": "https://sgnt.ai/p/jev/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "Jev 技术原理逆向综述" },
+
+    { "name": "HN: Introducing System One Models and Jev", "url": "https://news.ycombinator.com/item?id=49717558", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "1931 分 / 509 评论（2026-09-15）" },
+    { "name": "Show HN: CUA-S1", "url": "https://news.ycombinator.com/item?id=49781612", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "TryCua 计算机操作专用模型发布帖" },
+    { "name": "HN: Kev", "url": "https://news.ycombinator.com/item?id=49783999", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "Jev 开源复刻讨论" },
+    { "name": "daily.dev: .NET community SDK", "url": "https://daily.dev/posts/typesafe-s-jev-ai-model-in-net-a-community-sdk-for-structured-ai-output-in-c--xmcidm5vs", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": ".NET 社区 SDK" },
+    { "name": "daily.dev: Jev skips token generation", "url": "https://daily.dev/posts/jev-skips-token-generation-entirely-and-the-speed-numbers-are-hard-to-ignore-nv8tizgl7", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "跳过逐 token 生成的速度讨论" },
+    { "name": "daily.dev: The Ultimate Classification Model?", "url": "https://daily.dev/posts/jev---the-ultimate-classification-model--adcdu4y6u", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "分类模型之辩" },
+    { "name": "daily.dev: Getting Started With Jev", "url": "https://daily.dev/posts/getting-started-with-jev-cecuqgob5", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "上手指南" }
+  ]
+}

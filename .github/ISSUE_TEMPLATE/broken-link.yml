@@ -1,0 +1,18 @@
+name: 失效链接反馈
+description: 清单里某个链接打不开或内容不符
+title: "[失效] 条目名"
+labels: ["broken-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 失效链接
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 具体情况
+      description: 404 / 5xx / 被重定向到无关页面 / 项目已改名或归档……越具体越好
+    validations:
+      required: true

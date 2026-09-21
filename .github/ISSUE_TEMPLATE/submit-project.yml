@@ -1,0 +1,50 @@
+name: 推荐新条目
+description: 推荐一个与 Jev / System One 相关的项目、SDK、教程或讨论帖
+title: "[收录] 项目名"
+labels: ["submission"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 链接
+      description: GitHub 仓库 / 文章 / 演示页的完整 URL（必须能打开）
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 优质开源应用
+        - SDK 与集成
+        - 官方资源
+        - 教程与评测
+        - 社区讨论
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 一句话中文描述
+      description: 用你自己的话说明它做什么、和 Jev 的关系，别直接机翻项目 README
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: 语言 / 技术栈
+      description: "开源项目填主语言（如 Python / TypeScript），其他可留空"
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub Star 数
+      description: "顺手填一下当前数值（可选）"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自查
+      options:
+        - label: 我已在浏览器中实测该链接可访问
+        - label: 该条目与 Jev / System One 直接相关
+        - label: 这是我的发现或我参与的项目（利益相关会注明）
+          required: false

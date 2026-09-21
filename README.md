@@ -9,12 +9,25 @@
 [![Hacker News](https://img.shields.io/badge/Hacker_News-1931_points-FF6600)](https://news.ycombinator.com/item?id=49717558)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#收录标准与投稿)
 [![生态快照](https://img.shields.io/badge/生态快照-2026.09.21-blue)](#局限与说明)
+[![CI](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml)
 
 </div>
 
 **Jev** 是 TypeSafe AI 于 2026 年 9 月 15 日发布的首个 **System One 决策模型**（System One decision model）：它不像传统大语言模型那样逐字生成文本，而是对预先定义好的问题返回**带校准概率的类型化答案**——一次调用并行完成分类、路由、打分与是非判断。本仓库持续精选 Jev 发布以来生态中涌现的**优质开源应用、SDK、平台集成、开源复刻与深度教程**，帮工程师最快找到「把 Jev 用起来」的参考实现。
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
+
+当前收录 **64** 条资源（[优质开源应用](#优质开源应用) **18** · [SDK 与集成](#sdk-与集成) **20** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **13** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+
+<table>
+  <tr>
+    <td align="center">🚀<br><b><a href="#优质开源应用">优质开源应用</a></b><br>Agent · 交易 · 开发工具</td>
+    <td align="center">🔌<br><b><a href="#sdk-与集成">SDK 与集成</a></b><br>官方 · 平台 · 社区 · 复刻</td>
+    <td align="center">🏛️<br><b><a href="#官方资源">官方资源</a></b><br>文档 · 控制台 · 评测</td>
+    <td align="center">📝<br><b><a href="#深度教程与评测">教程与评测</a></b><br>实操 · 架构 · 批判分析</td>
+    <td align="center">💬<br><b><a href="#社区讨论">社区讨论</a></b><br>HN · daily.dev</td>
+  </tr>
+</table>
 
 ## 目录
 
@@ -42,6 +55,18 @@
 - 官方声称在 System One 类任务上比参照前沿模型**快 193.6 倍、便宜 444.6 倍**（自建 workflow evals，批判性分析见 [TrueFoundry](https://www.truefoundry.com/blog/typesafe-ai-jev)）
 - 创始人 Diogo Almeida 是 OpenAI 前研究员、RLHF / InstructGPT 联合发明人；公司种子轮 $40M（DCVC 领投）
 - 已知局限：不会算术 / 计数 / 日期比较，不能生成文本，不支持图片与音频；"零幻觉"指**不可能返回 schema 之外的值**，不等于"永远正确"
+
+生态全景（一张图看懂本清单怎么组织）：
+
+```mermaid
+graph LR
+    API["Jev API<br/>choice · score · noul"]
+    API --> APP["🚀 应用层<br/>Agent / 交易 / 开发工具 / 评测"]
+    API --> SDK["🔌 SDK 层<br/>官方 TS · Python + 社区 6 语言"]
+    API --> PLT["🏛️ 平台集成<br/>LangChain / Vercel AI SDK / TanStack"]
+    API --> OSS["♻️ 开源复刻<br/>kev / NanoJev / von"]
+    OSS -. "兼容 /v1/systemone" .-> API
+```
 
 ## 30 秒上手
 
@@ -115,7 +140,7 @@ const r = await client.systemOne({
 
 - [**langchain-typesafe**](https://pypi.org/project/langchain-typesafe/) — LangChain 官方集成：`TypeSafeClassifier` + 模型路由中间件，配套官方教程 [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev)
 - [**@ai-sdk/typesafe-ai**](https://ai-sdk.dev/docs/ai-sdk-core/evaluation) — Vercel AI SDK 原生 provider（Gateway ID `typesafe-ai/jev-latest`），Vercel 称其为 [AI Gateway 史上采用最快的模型](https://vercel.com/blog/ai-gateway-jev-model-launch)
-- **TanStack AI** — `@tanstack/ai-typesafe`：`typesafeDecider` 提供 decide / choice / score / boolean 四类决策
+- [**TanStack AI**](https://tanstack.com) — `@tanstack/ai-typesafe`：`typesafeDecider` 提供 decide / choice / score / boolean 四类决策
 
 ### 社区语言 SDK
 
@@ -192,7 +217,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 **我的项目怎么被收录？**
 
-见下节收录标准，直接提 PR 或 Issue，中文描述即可。
+先看 [CONTRIBUTING.md](CONTRIBUTING.md)：用 [Issue 模板](.github/ISSUE_TEMPLATE/submit-project.yml)推荐，或直接提 PR（同步 `data/projects.json` 并跑通 `scripts/check.py` 即可，中文描述就行）。
 
 ## 收录标准与投稿
 
@@ -200,7 +225,8 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 - 优先级：可运行开源应用 > SDK / 集成 > 教程 > 社区讨论；
 - 条目格式统一：`- [名称](URL) — 一句话中文描述（语言，★数快照）`；
 - 不收录无法访问的链接、纯营销页与搬运聚合号；
-- 欢迎 PR / Issue。
+- 新条目需**同时**更新 `README.md` 与 [`data/projects.json`](data/projects.json)，并跑通 `python scripts/check.py`（CI 会自动校验）；
+- 流程细节与质检清单见 [CONTRIBUTING.md](CONTRIBUTING.md)，也欢迎用 [Issue 模板](.github/ISSUE_TEMPLATE/submit-project.yml)推荐项目。
 
 ## 局限与说明
 
