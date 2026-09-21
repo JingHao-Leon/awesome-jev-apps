@@ -217,7 +217,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 **我的项目怎么被收录？**
 
-先看 [CONTRIBUTING.md](CONTRIBUTING.md)：用 [Issue 模板](.github/ISSUE_TEMPLATE/submit-project.yml)推荐，或直接提 PR（同步 `data/projects.json` 并跑通 `scripts/check.py` 即可，中文描述就行）。
+先看 [CONTRIBUTING.md](CONTRIBUTING.md)：用 [Issue 模板](https://github.com/JingHao-Leon/awesome-jev-apps/issues/new?template=submit-project.yml)推荐，或直接提 PR（同步 `data/projects.json` 并跑通 `scripts/check.py` 即可，中文描述就行）。
 
 ## 收录标准与投稿
 
@@ -226,7 +226,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 - 条目格式统一：`- [名称](URL) — 一句话中文描述（语言，★数快照）`；
 - 不收录无法访问的链接、纯营销页与搬运聚合号；
 - 新条目需**同时**更新 `README.md` 与 [`data/projects.json`](data/projects.json)，并跑通 `python scripts/check.py`（CI 会自动校验）；
-- 流程细节与质检清单见 [CONTRIBUTING.md](CONTRIBUTING.md)，也欢迎用 [Issue 模板](.github/ISSUE_TEMPLATE/submit-project.yml)推荐项目。
+- 流程细节与质检清单见 [CONTRIBUTING.md](CONTRIBUTING.md)，也欢迎用 [Issue 模板](https://github.com/JingHao-Leon/awesome-jev-apps/issues/new?template=submit-project.yml)推荐项目。
 
 ## 局限与说明
 

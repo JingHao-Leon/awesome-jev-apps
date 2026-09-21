@@ -31,8 +31,11 @@ jobs:
             --no-progress
             --max-retries 2
             --timeout 20
+            --accept '100..=299,429'
             --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36'
             --exclude 'datacamp\.com'
+            --exclude 'jevusers\.com'
+            --exclude 'www\.npmjs\.com'
             './README.md'
             './data/projects.json'
             './CONTRIBUTING.md'

@@ -13,7 +13,7 @@
 
 ### 方式一：提 Issue（推荐给不想折腾 Git 的朋友）
 
-用 [推荐新条目](../../issues/new?template=submit-project.yml) 模板填写项目信息，维护者会处理入库。
+用 [推荐新条目](https://github.com/JingHao-Leon/awesome-jev-apps/issues/new?template=submit-project.yml) 模板填写项目信息，维护者会处理入库。
 
 ### 方式二：直接提 PR
 

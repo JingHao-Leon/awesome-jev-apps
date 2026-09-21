@@ -20,6 +20,6 @@
 
 ## 执行
 
-上述行为出现在本仓库（Issue / PR / 讨论）时，维护者可以删除评论、拒绝合并或封禁参与者。如有疑问或举报，请通过 [GitHub Issue](../../issues) 联系维护者。
+上述行为出现在本仓库（Issue / PR / 讨论）时，维护者可以删除评论、拒绝合并或封禁参与者。如有疑问或举报，请通过 [GitHub Issue](https://github.com/JingHao-Leon/awesome-jev-apps/issues) 联系维护者。
 
 本公约改编自 [Contributor Covenant](https://www.contributor-covenant.org/) 2.1 版。
