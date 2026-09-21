@@ -30,7 +30,7 @@ jobs:
           args: >-
             --no-progress
             --max-retries 2
-            --timeout 20s
+            --timeout 20
             --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36'
             --exclude 'datacamp\.com'
             './README.md'
