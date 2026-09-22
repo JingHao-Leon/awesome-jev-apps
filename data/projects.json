@@ -1,5 +1,5 @@
 {
-  "meta": {"snapshot_date": "2026-09-23", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 68},
+  "meta": {"snapshot_date": "2026-09-23", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 75},
   "entries": [
     { "name": "browser-use/jev-ultrafast", "url": "https://github.com/browser-use/jev-ultrafast", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": "Python", "stars": 17706, "description": "Jev 选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒" },
     { "name": "trycua/cua", "url": "https://github.com/trycua/cua", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": null, "stars": 25951, "description": "开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型" },
@@ -15,8 +15,15 @@
     { "name": "lukstei/slop-grader", "url": "https://github.com/lukstei/slop-grader", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": 20, "description": "按规则给文本文件打 slop 分的 CLI" },
     { "name": "vercel-labs/jev-ai-sdk-form-router", "url": "https://github.com/vercel-labs/jev-ai-sdk-form-router", "category": "优质开源应用", "subcategory": "开发者工具", "language": "TypeScript", "stars": 2, "description": "Vercel Labs 官方示例：Jev + AI SDK 把表单提交路由给对的人" },
     { "name": "miuuyy/Astra-Ares", "url": "https://github.com/miuuyy/Astra-Ares", "category": "优质开源应用", "subcategory": "开发者工具", "language": "JavaScript", "stars": 47, "description": "Codex 任务运行中由 Jev 为 GPT-6 Astra 自适应选择推理强度（实验性参考实现）" },
+    { "name": "kerpopule/hermes-jev-skills", "url": "https://github.com/kerpopule/hermes-jev-skills", "category": "优质开源应用", "subcategory": "开发者工具", "language": "Python", "stars": 468, "description": "给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择、电脑与浏览器操作全交给 Jev" },
     { "name": "openlayer-ai/jevals", "url": "https://github.com/openlayer-ai/jevals", "category": "优质开源应用", "subcategory": "评测与护栏", "language": "Python", "stars": 60, "description": "一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上" },
     { "name": "sagarmainkar/jev-wall", "url": "https://github.com/sagarmainkar/jev-wall", "category": "优质开源应用", "subcategory": "评测与护栏", "language": "Python", "stars": 0, "description": "基于 Jev 的 LLM 护栏" },
+    { "name": "can-you-beat-jev", "url": "https://antics.gg/can-you-beat-jev", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "人机对战小游戏：和 Jev 比拼同一道判断题" },
+    { "name": "1kpapers", "url": "https://www.1kpapers.com", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "用 Jev 给 1018 篇论文做分类，总成本 $0.08 的极限压价实验" },
+    { "name": "fly.rahmanyoonus.com", "url": "https://fly.rahmanyoonus.com", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "Jev 驱动的实时飞行决策演示" },
+    { "name": "kzkhykw/jev-auto-ime", "url": "https://github.com/kzkhykw/jev-auto-ime", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "Python", "stars": 6, "description": "问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具" },
+    { "name": "shapsider/OmniJev", "url": "https://github.com/shapsider/OmniJev", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "Python", "stars": 9, "description": "多模态有限选择决策接口 + MuJoCo 具身实验台：轨迹回放、决策探针、基准面板" },
+    { "name": "JunMa11/MedJev", "url": "https://github.com/JunMa11/MedJev", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "Python", "stars": 41, "description": "自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内" },
     { "name": "citegraph", "url": "https://www.citegraph.app/live", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "让多个 AI 引擎逐页对簿公堂的实时引用图谱" },
     { "name": "jevable-code", "url": "https://altslate-labs.github.io/jevable-code/", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "审计任意仓库里哪些判断可以被 Jev 替换" },
     { "name": "jevusers.com", "url": "https://jevusers.com", "category": "优质开源应用", "subcategory": "Web 演示", "language": null, "stars": null, "description": "第三方生态目录：追踪 400+ 项目、合计 40k+ star，每日更新" },

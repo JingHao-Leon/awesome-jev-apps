@@ -17,7 +17,7 @@
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
 
-当前收录 **68** 条资源（[优质开源应用](#优质开源应用) **20** · [SDK 与集成](#sdk-与集成) **20** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **15** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+当前收录 **75** 条资源（[优质开源应用](#优质开源应用) **27** · [SDK 与集成](#sdk-与集成) **20** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **15** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
 <table>
   <tr>
@@ -116,11 +116,21 @@ const r = await client.systemOne({
 - [**lukstei/slop-grader**](https://github.com/lukstei/slop-grader) — 按规则给文本文件打"slop 分"的 CLI（`TypeScript`）
 - [**vercel-labs/jev-ai-sdk-form-router**](https://github.com/vercel-labs/jev-ai-sdk-form-router) — Vercel Labs 官方示例：Jev + AI SDK 把表单提交路由给对的人（`TypeScript`）
 - [**miuuyy/Astra-Ares**](https://github.com/miuuyy/Astra-Ares) — Codex 任务运行中由 Jev 为 GPT-6 Astra 自适应选择推理强度（`JavaScript`，47★）
+- [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) — 给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择全交给 Jev（`Python`，468★）
 
 ### 评测与护栏
 
 - [**openlayer-ai/jevals**](https://github.com/openlayer-ai/jevals) — 一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上（`Python`，60★）
 - [**sagarmainkar/jev-wall**](https://github.com/sagarmainkar/jev-wall) — 基于 Jev 的 LLM 护栏（`Python`）
+
+### 趣味与实验
+
+- [**can-you-beat-jev**](https://antics.gg/can-you-beat-jev) — 人机对战小游戏：和 Jev 比拼同一道判断题
+- [**1kpapers**](https://www.1kpapers.com) — 用 Jev 给 1018 篇论文做分类，总成本 $0.08 的极限压价实验
+- [**fly.rahmanyoonus.com**](https://fly.rahmanyoonus.com) — Jev 驱动的实时飞行决策演示
+- [**kzkhykw/jev-auto-ime**](https://github.com/kzkhykw/jev-auto-ime) — 问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具（`Python`，6★）
+- [**shapsider/OmniJev**](https://github.com/shapsider/OmniJev) — 多模态有限选择决策接口 + MuJoCo 具身实验台：轨迹回放、决策探针、基准面板（`Python`，9★）
+- [**JunMa11/MedJev**](https://github.com/JunMa11/MedJev) — 自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内（`Python`，41★）
 
 ### 值得一看的 Web 演示
 
