@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.3.0] - 2026-09-23
+
+### 新增
+
+- 4 条条目（共 68 条）：
+  - [kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev) — 805 条 CI 复验示例目录（同名仓库甄别后的优质者）；
+  - [miuuyy/Astra-Ares](https://github.com/miuuyy/Astra-Ares) — Jev 驱动的自适应推理强度选择；
+  - [Latent Space 播客](https://www.latent.space/p/jev) — Diogo Almeida 亲述（2h21m）；
+  - [《Jev 工程学》中文翻译](https://github.com/yibie/jev-engineering-zh)。
+- 全量刷新 32 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-21 → 09-23）
+
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev)：1.5k★ → 3.5k★（+127%）；
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：13.8k★ → 17.7k★；
+- [typesafe-ai/skills](https://github.com/typesafe-ai/skills)：1.4k★ → 1.8k★；[itsmostafa/typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp)：173★ → 252★；[wfzyx/von](https://github.com/wfzyx/von)：297★ → 449★。
+
 ## [0.2.0] - 2026-09-21
 
 ### 新增
