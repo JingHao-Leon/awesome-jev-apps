@@ -8,7 +8,7 @@
 [![Jev](https://img.shields.io/badge/Jev-jev--1.13.0-4F46E5)](https://docs.typesafe.ai)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-1931_points-FF6600)](https://news.ycombinator.com/item?id=49717558)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#收录标准与投稿)
-[![生态快照](https://img.shields.io/badge/生态快照-2026.09.23-blue)](#局限与说明)
+[![生态快照](https://img.shields.io/badge/生态快照-2026.09.24-blue)](#局限与说明)
 [![CI](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml)
 
 </div>
@@ -17,7 +17,7 @@
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
 
-当前收录 **75** 条资源（[优质开源应用](#优质开源应用) **27** · [SDK 与集成](#sdk-与集成) **20** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **15** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+当前收录 **79** 条资源（[优质开源应用](#优质开源应用) **27** · [SDK 与集成](#sdk-与集成) **21** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **18** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
 <table>
   <tr>
@@ -92,35 +92,35 @@ const r = await client.systemOne({
 
 ## 优质开源应用
 
-> ★ 数为 2026-09-23 快照，随时间变化。
+> ★ 数为 2026-09-24 快照，随时间变化。
 
 ### Agent 与自动化
 
-- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，17.7k★）
+- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，18.9k★）
 - [**trycua/cua**](https://github.com/trycua/cua) — 开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型（26k★）
 - [**imanshu03/jev-browser-use**](https://github.com/imanshu03/jev-browser-use) — 基于 Jev + CDP/Chromium 的轻量浏览器自动化（`Python`）
 
 ### 交易与金融
 
 - [**OpenByteInc/QuantDinger**](https://github.com/OpenByteInc/QuantDinger) — 开源 AI 交易操作系统，集成 Jev System One：策略研究、回测、模拟/实盘，可搭多租户交易 SaaS（`Python`，12k★）
-- [**jarrodwatts/jev-trader**](https://github.com/jarrodwatts/jev-trader) — 每个 Monad 区块做一次 Jev 交易决策（Kuru MON-USDC）（`TypeScript`，2k★）
+- [**jarrodwatts/jev-trader**](https://github.com/jarrodwatts/jev-trader) — 每个 Monad 区块做一次 Jev 交易决策（Kuru MON-USDC）（`TypeScript`，2.2k★）
 - [**SaratAngajalaoffl/jeeva**](https://github.com/SaratAngajalaoffl/jeeva) — 基于 Jev 的中频交易框架（`TypeScript`）
 
 ### 开发者工具
 
-- [**tamaratran/fast-jev-compaction**](https://github.com/tamaratran/fast-jev-compaction) — Claude Code 插件：一次 Jev 请求给全部工具调用打分并压缩上下文，保留内容逐字不动（`TypeScript`，6.2k★）
-- [**devagrawal09/jev-review**](https://github.com/devagrawal09/jev-review) — 分阶段代码审查工作流 + 本地仪表盘（`TypeScript`，536★）
-- [**dabit3/jev-experiments**](https://github.com/dabit3/jev-experiments) — 延迟敏感场景的 Jev demo 合集（`TypeScript`，365★）
+- [**tamaratran/fast-jev-compaction**](https://github.com/tamaratran/fast-jev-compaction) — Claude Code 插件：一次 Jev 请求给全部工具调用打分并压缩上下文，保留内容逐字不动（`TypeScript`，6.5k★）
+- [**devagrawal09/jev-review**](https://github.com/devagrawal09/jev-review) — 分阶段代码审查工作流 + 本地仪表盘（`TypeScript`，573★）
+- [**dabit3/jev-experiments**](https://github.com/dabit3/jev-experiments) — 延迟敏感场景的 Jev demo 合集（`TypeScript`，372★）
 - [**nozomi-koborinai/jev-spec**](https://github.com/nozomi-koborinai/jev-spec) — 每次 commit 用 Jev 检查代码与 Markdown 规格文档的漂移（`TypeScript`）
 - [**maayanlevy/mysql-ailike**](https://github.com/maayanlevy/mysql-ailike) — MySQL 插件：按自然语言语义过滤数据行（`C++`）
 - [**lukstei/slop-grader**](https://github.com/lukstei/slop-grader) — 按规则给文本文件打"slop 分"的 CLI（`TypeScript`）
 - [**vercel-labs/jev-ai-sdk-form-router**](https://github.com/vercel-labs/jev-ai-sdk-form-router) — Vercel Labs 官方示例：Jev + AI SDK 把表单提交路由给对的人（`TypeScript`）
-- [**miuuyy/Astra-Ares**](https://github.com/miuuyy/Astra-Ares) — Codex 任务运行中由 Jev 为 GPT-6 Astra 自适应选择推理强度（`JavaScript`，47★）
-- [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) — 给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择全交给 Jev（`Python`，468★）
+- [**miuuyy/Astra-Ares**](https://github.com/miuuyy/Astra-Ares) — Codex 任务运行中由 Jev 为 GPT-6 Astra 自适应选择推理强度（`JavaScript`，225★）
+- [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) — 给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择全交给 Jev（`Python`，687★）
 
 ### 评测与护栏
 
-- [**openlayer-ai/jevals**](https://github.com/openlayer-ai/jevals) — 一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上（`Python`，60★）
+- [**openlayer-ai/jevals**](https://github.com/openlayer-ai/jevals) — 一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上（`Python`，66★）
 - [**sagarmainkar/jev-wall**](https://github.com/sagarmainkar/jev-wall) — 基于 Jev 的 LLM 护栏（`Python`）
 
 ### 趣味与实验
@@ -128,31 +128,32 @@ const r = await client.systemOne({
 - [**can-you-beat-jev**](https://antics.gg/can-you-beat-jev) — 人机对战小游戏：和 Jev 比拼同一道判断题
 - [**1kpapers**](https://www.1kpapers.com) — 用 Jev 给 1018 篇论文做分类，总成本 $0.08 的极限压价实验
 - [**fly.rahmanyoonus.com**](https://fly.rahmanyoonus.com) — Jev 驱动的实时飞行决策演示
-- [**kzkhykw/jev-auto-ime**](https://github.com/kzkhykw/jev-auto-ime) — 问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具（`Python`，6★）
+- [**kzkhykw/jev-auto-ime**](https://github.com/kzkhykw/jev-auto-ime) — 问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具（`Python`，10★）
 - [**shapsider/OmniJev**](https://github.com/shapsider/OmniJev) — 多模态有限选择决策接口 + MuJoCo 具身实验台：轨迹回放、决策探针、基准面板（`Python`，9★）
-- [**JunMa11/MedJev**](https://github.com/JunMa11/MedJev) — 自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内（`Python`，41★）
+- [**JunMa11/MedJev**](https://github.com/JunMa11/MedJev) — 自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内（`Python`，67★）
 
 ### 值得一看的 Web 演示
 
 - [**citegraph.app/live**](https://www.citegraph.app/live) — 让多个 AI 引擎逐页"对簿公堂"的实时引用图谱
 - [**jevable-code**](https://altslate-labs.github.io/jevable-code/) — 审计任意仓库里哪些判断可以被 Jev 替换
 - [**jevusers.com**](https://jevusers.com) — 第三方生态目录：追踪 400+ 项目、合计 40k+★，每日更新
-- [**kydlikebtc/awesome-jev**](https://github.com/kydlikebtc/awesome-jev) — 805 条按决策类型索引的示例目录：CI 每周复验、双语、[可检索站点](https://kydlikebtc.github.io/awesome-jev/)（同名仓库中经核验的优质者）（`Python`，80★）
+- [**kydlikebtc/awesome-jev**](https://github.com/kydlikebtc/awesome-jev) — 805 条按决策类型索引的示例目录：CI 每周复验、双语、[可检索站点](https://kydlikebtc.github.io/awesome-jev/)（同名仓库中经核验的优质者）（`Python`，169★）
 
 ## SDK 与集成
 
 ### 官方
 
-- [**typesafe-sdk-js**](https://github.com/typesafe-ai/typesafe-sdk-js) — 官方 TypeScript/JavaScript SDK（npm `@typesafe-ai/sdk`，224★）
-- [**typesafe-sdk-python**](https://github.com/typesafe-ai/typesafe-sdk-python) — 官方 Python SDK（199★）
-- [**system-one-adapter-python**](https://github.com/typesafe-ai/system-one-adapter-python) — 用任意 LLM API 模拟 `TypeSafeClient` 的 drop-in 适配器，开发/迁移期联调好用（256★）
-- [**typesafe-ai/skills**](https://github.com/typesafe-ai/skills) — 官方 Agent Skill：教 Claude Code / Codex 正确使用 System One API（1.8k★）
+- [**typesafe-sdk-js**](https://github.com/typesafe-ai/typesafe-sdk-js) — 官方 TypeScript/JavaScript SDK（npm `@typesafe-ai/sdk`，229★）
+- [**typesafe-sdk-python**](https://github.com/typesafe-ai/typesafe-sdk-python) — 官方 Python SDK（210★）
+- [**system-one-adapter-python**](https://github.com/typesafe-ai/system-one-adapter-python) — 用任意 LLM API 模拟 `TypeSafeClient` 的 drop-in 适配器，开发/迁移期联调好用（278★）
+- [**typesafe-ai/skills**](https://github.com/typesafe-ai/skills) — 官方 Agent Skill：教 Claude Code / Codex 正确使用 System One API（2k★）
 
 ### 平台官方集成
 
 - [**langchain-typesafe**](https://pypi.org/project/langchain-typesafe/) — LangChain 官方集成：`TypeSafeClassifier` + 模型路由中间件，配套官方教程 [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev)
 - [**@ai-sdk/typesafe-ai**](https://ai-sdk.dev/docs/ai-sdk-core/evaluation) — Vercel AI SDK 原生 provider（Gateway ID `typesafe-ai/jev-latest`），Vercel 称其为 [AI Gateway 史上采用最快的模型](https://vercel.com/blog/ai-gateway-jev-model-launch)
 - [**TanStack AI**](https://tanstack.com) — `@tanstack/ai-typesafe`：`typesafeDecider` 提供 decide / choice / score / boolean 四类决策
+- [**Motherduck prompt_jev()**](https://motherduck.com/blog/motherduck-supports-jev/) — 在 SQL 里直接问 Jev：把决策引擎搬进 DuckDB 查询
 
 ### 社区语言 SDK
 
@@ -165,16 +166,16 @@ const r = await client.systemOne({
 
 ### MCP 与 Agent 工具链
 
-- [**itsmostafa/typesafe-mcp**](https://github.com/itsmostafa/typesafe-mcp) — MCP 连接器：让任意 AI agent 直接调用 Jev（`Go`，252★）
+- [**itsmostafa/typesafe-mcp**](https://github.com/itsmostafa/typesafe-mcp) — MCP 连接器：让任意 AI agent 直接调用 Jev（`Go`，275★）
 - [**jevcore-mcp**](https://www.npmjs.com/package/jevcore-mcp) — MCP server：ask / rank / check 三个决策工具
 
 ### 开源复刻与本地平替
 
 - [**TianyuCodings/NanoJev**](https://github.com/TianyuCodings/NanoJev) — nano 复刻：并行决策、动态候选、端到端训练管线（`Python`，2k★）
-- [**jaredpalmer/kev**](https://github.com/jaredpalmer/kev) — 基于 Qwen3.5 的微型 Jev-like 决策模型家族，可自训自跑（`Python`，3.5k★）
-- [**vinnylarouge/jevlike**](https://github.com/vinnylarouge/jevlike) — Jev-like 决策模型复刻（`Python`，1.1k★）
-- [**wfzyx/von**](https://github.com/wfzyx/von) — 开源 System One 决策模型：sub-15ms、非自回归、本地 drop-in 平替（`Python`，449★）
-- [**ekzhang/openjev-sglang**](https://github.com/ekzhang/openjev-sglang) — 基于开源模型的 Jev 兼容 API 端点（prefill-only）（`Python`，266★）
+- [**jaredpalmer/kev**](https://github.com/jaredpalmer/kev) — 基于 Qwen3.5 的微型 Jev-like 决策模型家族，可自训自跑（`Python`，5.5k★）
+- [**vinnylarouge/jevlike**](https://github.com/vinnylarouge/jevlike) — Jev-like 决策模型复刻（`Python`，1.3k★）
+- [**wfzyx/von**](https://github.com/wfzyx/von) — 开源 System One 决策模型：sub-15ms、非自回归、本地 drop-in 平替（`Python`，552★）
+- [**ekzhang/openjev-sglang**](https://github.com/ekzhang/openjev-sglang) — 基于开源模型的 Jev 兼容 API 端点（prefill-only）（`Python`，295★）
 
 ## 官方资源
 
@@ -199,7 +200,10 @@ const r = await client.systemOne({
 - [The State Machine Is the Agent（stacktoheap）](https://stacktoheap.com/blog/2026/09/21/the-state-machine-is-the-agent/)
 - [You could have built Jev（sgnt.ai）](https://sgnt.ai/p/jev/)
 - [Jev: System One models for Prod, not God（Latent Space 播客）](https://www.latent.space/p/jev) — Diogo Almeida 亲述，2 小时 21 分钟，目前最深入的 Jev 播客（2026-09-21）
-- [《Jev 工程学：为 coding agent 而作》中文翻译（yibie）](https://github.com/yibie/jev-engineering-zh) — Diogo Almeida 设计笔记的完整中文翻译（独立汇编，47★）
+- [《Jev 工程学：为 coding agent 而作》中文翻译（yibie）](https://github.com/yibie/jev-engineering-zh) — Diogo Almeida 设计笔记的完整中文翻译（独立汇编，96★）
+- [Jev in 25 Lines of Python](https://www.nobodywho.ai/posts/jev-in-25-lines/) — 458 分 HN 热帖：25 行 Python 复刻 System One 接口，把「并行回答预定义问题」的本质讲透（2026-09-23）
+- [Jev introduces a new shape of LLM（Simon Willison）](https://simonwillison.net/2026/Sep/21/jev/) — Simon Willison 的定性分析：Jev 开创了 LLM 的新形态（2026-09-21）
+- [JevBench](https://benchmarkheaven.com/jev-models) — 可复现的 typed-decision 模型基准（126 分 Show HN，2026-09-22）
 
 ## 社区讨论
 
@@ -244,7 +248,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 ## 局限与说明
 
-- **时效**：Jev 发布于 2026-09-15，本清单为 2026-09-23 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
+- **时效**：Jev 发布于 2026-09-15，本清单为 2026-09-24 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
 - **数字口径**：性能对比（193.6x / 444.6x、"零幻觉"）为官方自报口径，本清单在引用处已标注"官方声称"；批判性视角见 [TrueFoundry 分析](https://www.truefoundry.com/blog/typesafe-ai-jev)；
 - **不背书**：收录 ≠ 推荐，第三方项目质量请自行评估；GitHub 上另有多个同名 `awesome-jev` 仓库（部分为搬运聚合号），引用时注意甄别；
 - **Jev 本身的局限**（综合官方文档与第三方评测）：不能算术、计数、日期比较；不能生成文本；不支持图片 / 音频输入；state 可被对抗性文本操纵；置信度校准在分布漂移时可能失效。

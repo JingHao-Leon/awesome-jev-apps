@@ -2,6 +2,22 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.4.0] - 2026-09-24
+
+### 新增
+
+- 4 条条目（共 79 条）：
+  - [Jev in 25 Lines of Python](https://www.nobodywho.ai/posts/jev-in-25-lines/) — 458 分 HN 热帖，25 行代码讲透 System One 本质；
+  - [Simon Willison 分析](https://simonwillison.net/2026/Sep/21/jev/) — "Jev introduces a new shape of LLM"；
+  - [JevBench](https://benchmarkheaven.com/jev-models) — 可复现 typed-decision 基准（126 分 Show HN）；
+  - [Motherduck prompt_jev()](https://motherduck.com/blog/motherduck-supports-jev/) — 在 SQL 里直接问 Jev。
+- 全量刷新 32 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-23 → 09-24）
+
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev)：3.5k★ → 5.5k★（单日 +58%）；
+- [miuuyy/Astra-Ares](https://github.com/miuuyy/Astra-Ares)：47★ → 225★（收录次日近 5 倍）；[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：468★ → 687★；[kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：80★ → 169★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：17.7k★ → 18.9k★。
+
 ## [0.3.1] - 2026-09-23
 
 ### 变更
