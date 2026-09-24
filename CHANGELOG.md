@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.5.0] - 2026-09-25
+
+### 新增（趣味大爆发的一天，HN 一天内出现 5 个 Jev 玩法实验）
+
+- 5 条条目进入「趣味与实验」（共 84 条）：
+  - [jev-aita](https://github.com/dchristopoulos/jev-aita) — 用 Jev 审 770 篇 Reddit AITA 判决并与 Sonnet 5 / GPT-5 nano 对比；
+  - [Clue Me](https://yorohan.com/clue-me) — 描述词语让 Jev 猜的猜词游戏；
+  - [Jev Does Not Play Dice](https://kantahayashiai.github.io/posts/jev-does-not-play-dice/) — 83% 置信度 vs 19% 准确率的骰子校准实验；
+  - [Slop Mop](https://slopmop.lol) — 擦掉 LinkedIn slop 的 Chrome 插件；
+  - [Rebuilt Captcha with Jev](https://www.localcan.com/blog/build-your-own-captcha) — 用 Jev 造验证码的脑洞教程。
+- 全量刷新 32 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-24 → 09-25）
+
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev)：5.5k★ → 6.6k★；
+- [kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：169★ → 270★；[miuuyy/Astra-Ares](https://github.com/miuuyy/Astra-Ares)：225★ → 257★；[JunMa11/MedJev](https://github.com/JunMa11/MedJev)：67★ → 82★；[yibie/jev-engineering-zh](https://github.com/yibie/jev-engineering-zh)：96★ → 118★；[wfzyx/von](https://github.com/wfzyx/von)：552★ → 622★；[openlayer-ai/jevals](https://github.com/openlayer-ai/jevals)：66★ → 83★。
+
 ## [0.4.0] - 2026-09-24
 
 ### 新增
