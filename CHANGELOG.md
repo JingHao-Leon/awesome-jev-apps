@@ -2,6 +2,20 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.0] - 2026-09-26
+
+### 新增
+
+- 3 条条目（共 87 条）：
+  - [Jev Plays Pokémon Red](https://jev-pokemon.vercel.app/) — Show HN：Jev 玩《宝可梦红》，每步移动都是一道概率判断题；
+  - [Herobrine](https://github.com/xatuke/herobrine) — Minecraft 迷你伙伴 agent；
+  - [grev](https://github.com/aurorainfra/grev) — Thinking Grep，会思考的 coreutils。
+- 全量刷新 32 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-25 → 09-26）
+
+- [kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：270★ → 351★（两日 +340%）；[lukstei/slop-grader](https://github.com/lukstei/slop-grader)：22★ → 28★；[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：748★ → 811★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：19.7k★ → 20.1k★。
+
 ## [0.5.0] - 2026-09-25
 
 ### 新增（趣味大爆发的一天，HN 一天内出现 5 个 Jev 玩法实验）
