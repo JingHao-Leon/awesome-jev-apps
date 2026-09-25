@@ -17,7 +17,7 @@
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
 
-当前收录 **87** 条资源（[优质开源应用](#优质开源应用) **35** · [SDK 与集成](#sdk-与集成) **21** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **18** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+当前收录 **98** 条资源（[优质开源应用](#优质开源应用) **40** · [SDK 与集成](#sdk-与集成) **23** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **22** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
 <table>
   <tr>
@@ -33,6 +33,7 @@
 
 - [Jev 是什么（60 秒版）](#jev-是什么60-秒版)
 - [30 秒上手](#30-秒上手)
+- [选型速查](#选型速查)
 - [优质开源应用](#优质开源应用)
 - [SDK 与集成](#sdk-与集成)
 - [官方资源](#官方资源)
@@ -90,6 +91,16 @@ const r = await client.systemOne({
 // 一次请求并行返回全部答案，每个都带概率与置信度，可按置信度分流人工
 ```
 
+## 选型速查
+
+| 场景 | 选什么 | 理由 |
+| --- | --- | --- |
+| 分类、路由、打分、是非判断，要求低延迟低成本 | **Jev** | 70–500ms、输出免费、每个答案带校准置信度 |
+| 写作、生成、开放式对话与多轮推理 | 生成式 LLM | Jev 不生成文本，这类任务不是它的主场 |
+| 数据不能出本地 / 预算极限 / 离线 | 开源复刻：[laya](https://github.com/NandhaKishorM/laya) · [kev](https://github.com/jaredpalmer/kev) · [NanoJev](https://github.com/TianyuCodings/NanoJev) · [von](https://github.com/wfzyx/von) | 自托管，用一点精度换完全可控 |
+| 开发期联调、还没有 API Key | [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) | 用任意 LLM API 模拟同一套接口 |
+| 只想先玩玩看 | [趣味与实验](#趣味与实验) + [Open Jev Playground](https://www.beam.cloud/playground) | 零成本感受 typed decisions |
+
 ## 优质开源应用
 
 > ★ 数为 2026-09-26 快照，随时间变化。
@@ -98,6 +109,7 @@ const r = await client.systemOne({
 
 - [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，20.1k★）
 - [**trycua/cua**](https://github.com/trycua/cua) — 开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型（26k★）
+- [**jev-chat/jev-chat-jarvis**](https://github.com/jev-chat/jev-chat-jarvis) — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框；非侵入只读屏幕（`Kotlin`，6.5k★，中文项目）
 - [**imanshu03/jev-browser-use**](https://github.com/imanshu03/jev-browser-use) — 基于 Jev + CDP/Chromium 的轻量浏览器自动化（`Python`）
 
 ### 交易与金融
@@ -118,11 +130,13 @@ const r = await client.systemOne({
 - [**miuuyy/Astra-Ares**](https://github.com/miuuyy/Astra-Ares) — Codex 任务运行中由 Jev 为 GPT-6 Astra 自适应选择推理强度（`JavaScript`，272★）
 - [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) — 给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择全交给 Jev（`Python`，811★）
 - [**aurorainfra/grev**](https://github.com/aurorainfra/grev) — Thinking Grep：会思考的 coreutils，grep 的候选判断交给 Jev（`Go`，3★）
+- [**egma-ai/jev-code-reviewer**](https://github.com/egma-ai/jev-code-reviewer) — Review behavior, not just diffs：Jev 排 human 注意力优先级、OpenAI 解释改动，本地 CLI（`JavaScript`，45 分 HN）
 
 ### 评测与护栏
 
 - [**openlayer-ai/jevals**](https://github.com/openlayer-ai/jevals) — 一次请求完成 agent 评测与护栏，构建于 Jev / Kev / Laya 之上（`Python`，85★）
 - [**sagarmainkar/jev-wall**](https://github.com/sagarmainkar/jev-wall) — 基于 Jev 的 LLM 护栏（`Python`）
+- [**decision-models-under-pressure**](https://github.com/gazelle93/decision-models-under-pressure) — 七个决策模型在三重压力下的实测：候选列表膨胀、选项顺序扰动、错误答案注入（`Python`）
 
 ### 趣味与实验
 
@@ -139,6 +153,8 @@ const r = await client.systemOne({
 - [**Rebuilt Captcha with Jev**](https://www.localcan.com/blog/build-your-own-captcha) — 用 Jev 造一个「证明你是人」的验证码：反向思路的脑洞教程
 - [**Jev Plays Pokémon Red**](https://jev-pokemon.vercel.app/) — Show HN：让 Jev 玩《宝可梦红》，每一步移动都是一道带概率的判断题
 - [**Herobrine**](https://github.com/xatuke/herobrine) — Minecraft 迷你伙伴 agent：行为决策全部交给 Jev（Show HN，`JavaScript`）
+- [**Open Jev Playground**](https://www.beam.cloud/playground) — 一站式在线试所有 Jev 开源平替（Show HN）
+- [**semanticspace.dev**](https://semanticspace.dev) — 2D 语义空间可视化探索：把 Jev 的判断摊在一张地图上看
 
 ### 值得一看的 Web 演示
 
@@ -179,6 +195,8 @@ const r = await client.systemOne({
 
 ### 开源复刻与本地平替
 
+- [**NandhaKishorM/laya**](https://github.com/NandhaKishorM/laya) — 非自回归 System 1 决策引擎：单次前向输出 choice / score / noul，开源复刻榜首（`Python`，24.3k★）
+- [**TheoLeeCJ/SemIf-OpenJev**](https://github.com/TheoLeeCJ/SemIf-OpenJev) — 用开源模型在家用 3090 上跑「语义 if」；独立项目，与 TypeSafe 无隶属（`Python`，4.3k★）
 - [**TianyuCodings/NanoJev**](https://github.com/TianyuCodings/NanoJev) — nano 复刻：并行决策、动态候选、端到端训练管线（`Python`，2.2k★）
 - [**jaredpalmer/kev**](https://github.com/jaredpalmer/kev) — 基于 Qwen3.5 的微型 Jev-like 决策模型家族，可自训自跑（`Python`，6.9k★）
 - [**vinnylarouge/jevlike**](https://github.com/vinnylarouge/jevlike) — Jev-like 决策模型复刻（`Python`，1.3k★）
@@ -212,6 +230,10 @@ const r = await client.systemOne({
 - [Jev in 25 Lines of Python](https://www.nobodywho.ai/posts/jev-in-25-lines/) — 458 分 HN 热帖：25 行 Python 复刻 System One 接口，把「并行回答预定义问题」的本质讲透（2026-09-23）
 - [Jev introduces a new shape of LLM（Simon Willison）](https://simonwillison.net/2026/Sep/21/jev/) — Simon Willison 的定性分析：Jev 开创了 LLM 的新形态（2026-09-21）
 - [JevBench](https://benchmarkheaven.com/jev-models) — 可复现的 typed-decision 模型基准（126 分 Show HN，2026-09-22）
+- [What Is RLCD? The Secret Behind Jev](https://www.kartikpansuriya.com/blog/jev-system-one-model-calibrated-decisions) — RLCD（校准强化学习）训练方法科普（13 分 HN）
+- [Jev is 13.6x faster, 2.7x cheaper than GPT Luna 6（tessl 实测）](https://tessl.io/blog/jev-is-136x-faster-and-27x-cheaper-than-gpt-luna-6-for-tessl-verifiers-try-it-yourself) — 生产 verifier 实测数字，附复现步骤
+- [Jev in production vs a cross-encoder（getunblocked）](https://getunblocked.com/blog/jev-in-production-vs-cross-encoder/) — 与交叉编码器正面对比的生产数据
+- [Jev in practice: typed decisions, scoped authority（tenuo）](https://tenuo.ai/blog/jev-scoped-authority) — 类型化决策 + 限定权限的工程实践（27 分 HN）
 
 ## 社区讨论
 
@@ -240,6 +262,14 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 **哪些语言有 SDK？**
 
 官方提供 TypeScript/JavaScript 与 Python SDK；社区已有 .NET、Elixir、Rust、Go、Java、Ruby 移植，见上文「社区语言 SDK」一节。
+
+**有生产环境的真实数据吗？**
+
+有。[tessl](https://tessl.io/blog/jev-is-136x-faster-and-27x-cheaper-than-gpt-luna-6-for-tessl-verifiers-try-it-yourself) 在 verifier 场景实测比 GPT Luna 6 快 13.6 倍、便宜 2.7 倍；[getunblocked](https://getunblocked.com/blog/jev-in-production-vs-cross-encoder/) 公开了与交叉编码器的生产对比——都附复现步骤，见教程板块。
+
+**想先在本地或私网试，有什么路？**
+
+三条路：① 自托管开源复刻 laya / kev / NanoJev / von；② 官方 [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) 用任意 LLM 模拟同一接口；③ 在线 [Open Jev Playground](https://www.beam.cloud/playground) 免费体验。
 
 **我的项目怎么被收录？**
 

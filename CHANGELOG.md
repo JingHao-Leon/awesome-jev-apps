@@ -2,6 +2,19 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.7.0] - 2026-09-26
+
+### 新增（深度扩充轮：+11 条，共 98 条）
+
+- 补上两个重量级遗漏：[laya](https://github.com/NandhaKishorM/laya)（24.3k★，开源复刻榜首）与 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)（6.5k★，中文手机对话副驾）；
+- 新增板块条目：[SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev)（家用 3090 语义 if）、[jev-code-reviewer](https://github.com/egma-ai/jev-code-reviewer)（45 分 HN）、[decision-models-under-pressure](https://github.com/gazelle93/decision-models-under-pressure)、[Open Jev Playground](https://www.beam.cloud/playground)、[semanticspace.dev](https://semanticspace.dev)；
+- 教程板块补 4 篇一手实测：RLCD 训练方法科普、tessl 生产实测（13.6x/2.7x）、getunblocked 生产对比、tenuo 权限工程实践。
+
+### 变更
+
+- README 新增「[选型速查](README.md#选型速查)」：Jev / 生成式 LLM / 开源复刻 / 适配器的场景决策表；
+- FAQ 新增两问：生产环境真实数据、本地/私网试用的三条路径。
+
 ## [0.6.0] - 2026-09-26
 
 ### 新增
