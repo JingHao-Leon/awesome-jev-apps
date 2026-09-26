@@ -2,6 +2,22 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.8.0] - 2026-09-27
+
+### 新增
+
+- 5 条条目（共 103 条）：
+  - [ollaya](https://github.com/ollaya-dev/ollaya)（344★）— **530 分 HN**：决策模型界的 Ollama，本地运行 Laya 等开源决策模型；
+  - [jevmem](https://github.com/Avinash-jetwani/jevmem)（82★）— Claude Code 自动项目记忆层（61 分 HN）；
+  - [jevlang](https://github.com/RoyWiggins/jevlang) — 每个 if / while 都交给 Jev 决定的 Python 方言；
+  - [jev.chat](https://jev.chat) — 只用 emoji 回复的聊天机器人；
+  - [opper.ai 的 Jev vs. Kev 同题对比](https://opper.ai/blog/jev-vs-kev-open-decision-model)。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-26 → 09-27）
+
+- [kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：351★ → 440★；[aurorainfra/grev](https://github.com/aurorainfra/grev)：3★ → 26★（收录次日 +767%）；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：20.1k★ → 20.5k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：6.9k★ → 7.2k★。
+
 ## [0.7.0] - 2026-09-26
 
 ### 新增（深度扩充轮：+11 条，共 98 条）
