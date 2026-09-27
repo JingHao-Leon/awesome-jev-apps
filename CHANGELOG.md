@@ -2,6 +2,21 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.9.0] - 2026-09-28
+
+### 新增
+
+- 4 条条目（共 107 条）：
+  - [Jev predicting your life choices](https://quiz.seek.ws/) — 让 Jev 预测你的人生选择的 quiz（Show HN）；
+  - [peekaboolean](https://github.com/bykof/peekaboolean) — 图片进、类型化布尔答案出（Show HN）；
+  - [Jeyzma](https://jeyzma.com/) — Go + WebGPU 在本地浏览器里跑决策模型；
+  - [swift-newt](https://github.com/willswire/swift-newt) — Apple Core AI 上的 Swift 决策包（Show HN）。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-27 → 09-28）
+
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：344★ → 608★（收录次日 +77%，HN 头条效应）；[kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：440★ → 496★；[aurorainfra/grev](https://github.com/aurorainfra/grev)：26★ → 38★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：20.5k★ → 20.7k★；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：25.5k★ → 26.5k★。
+
 ## [0.8.0] - 2026-09-27
 
 ### 新增
