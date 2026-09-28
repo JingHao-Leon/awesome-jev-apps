@@ -2,6 +2,25 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.10.0] - 2026-09-29
+
+### 新增
+
+- 4 条条目（共 111 条）：
+  - [Jevdit](https://jevdit.com) — 由 Jev 当版主的社交网络（Show HN）；
+  - [nospace](https://levmiseri.com/nospace/) — Jev 驱动的进阶自动纠错；
+  - [Jev-Like Model Learns to Cook](https://rlafuente.com/posts/2026-9-26-training-a-small-decision-model-to-cook) — 训练决策模型学做菜的完整记录；
+  - [How Jev works（Victor Dibia）](https://victordibia.com/explainers/jev/) — 校准决策模型原理图解。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-28 → 09-29）
+
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：608★ → 821★（两日 +139%）；[kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)：496★ → 582★；[egma-ai/jev-code-reviewer](https://github.com/egma-ai/jev-code-reviewer)：82★ → 102★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：20.7k★ → 21.1k★；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：26.5k★ → 27.5k★。
+
+### 未收录说明
+
+- Rene-1（开源分类器 Decision Index 反超 Jev +9）：HuggingFace 链接本机多路探活均不通，按收录标准暂缓，待可验证后补录。
+
 ## [0.9.0] - 2026-09-28
 
 ### 新增
