@@ -2,6 +2,22 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.11.0] - 2026-09-30
+
+### 新增
+
+- 5 条条目（共 116 条）：
+  - [firelex/jeff](https://github.com/firelex/jeff)（927★）— **546 分 HN**：在家训练的 0.8B Jev 兼容决策模型，22-28ms；
+  - [PostHog/jeeves](https://github.com/PostHog/jeeves)（169★）— 推理增强 Jev-like 决策模型（152 分 HN）；
+  - [jev_civilization](https://github.com/JonesSteven/jev_civilization) — 部落由 Jev 决策的文明模拟；
+  - [From Bag-of-Words to Jev（Sebastian Raschka）](https://magazine.sebastianraschka.com/p/classifier-history-and-jev) — 文本分类全史；
+  - [casco CVSS 基准](https://casco.com/blog/jev-cvss-benchmark) — 负结果：所有决策模型都高估漏洞严重性。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-29 → 09-30）
+
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：821★ → 954★（三日 +218%）；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：27.5k★ → 28.3k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：7.6k★ → 7.8k★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：21.1k★ → 21.3k★。
+
 ## [0.10.0] - 2026-09-29
 
 ### 新增
