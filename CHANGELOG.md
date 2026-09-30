@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.12.0] - 2026-10-01
+
+### 生态里程碑
+
+- **OpenAI 用 Luna 出了 Decision API 正面回应 Jev**（The New Stack 报道已收录）；
+- **Ollama 0.35 原生支持 Jev-style 决策模型**（官方公告已收录）；
+- 学术圈跟进：首篇 Jev 相关 arXiv 论文（Jev-as-a-Judge）已收录。
+
+### 新增
+
+- 6 条条目（共 122 条）：上述 3 条 + [columnar.tech 的 Arrow 思路实验](https://columnar.tech/blog/what-if-jev-spoke-arrow/)（42 分 HN）、[enigma-jev](https://github.com/agodoy21/enigma-jev)（用 Jev 破译 Enigma）、[jev-talks](https://github.com/zie1ony/jev-talks)（让 Jev 说话）。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-09-30 → 10-01）
+
+- [firelex/jeff](https://github.com/firelex/jeff)：927★ → 1.2k★（+26%）；[PostHog/jeeves](https://github.com/PostHog/jeeves)：169★ → 330★（+95%）；[ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：954★ → 1k★（破千）；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：29.1k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：8k★。
+
 ## [0.11.0] - 2026-09-30
 
 ### 新增
