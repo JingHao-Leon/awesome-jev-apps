@@ -2,6 +2,20 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.13.0] - 2026-10-02
+
+### 新增
+
+- 3 条条目进入「趣味与实验」（共 125 条）：
+  - [MLB 季后赛逐打席预测](https://live.bitgraph.ing/) — 体育 + 实时概率可视化；
+  - [Gatekeeper](https://gatekeeper.dopp.sh/) — 说服 34MB 决策模型放你进城堡的 prompt 攻防游戏；
+  - [Dbb1 radio](https://radio.dbb1.dev/) — Jev 排节目的无尽电台。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-01 → 10-02）
+
+- [PostHog/jeeves](https://github.com/PostHog/jeeves)：330★ → 367★；[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：920★ → 963★；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：29.1k★ → 29.7k★；[firelex/jeff](https://github.com/firelex/jeff)：1.2k★ → 1.2k★（1,248）。
+
 ## [0.12.0] - 2026-10-01
 
 ### 生态里程碑

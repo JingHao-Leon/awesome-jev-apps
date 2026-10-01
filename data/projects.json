@@ -1,5 +1,5 @@
 {
-  "meta": {"snapshot_date": "2026-10-01", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 122},
+  "meta": {"snapshot_date": "2026-10-02", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 125},
   "entries": [
     { "name": "browser-use/jev-ultrafast", "url": "https://github.com/browser-use/jev-ultrafast", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": "Python", "stars": 21530, "description": "Jev 选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒" },
     { "name": "trycua/cua", "url": "https://github.com/trycua/cua", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": null, "stars": 27525, "description": "开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型" },
@@ -41,6 +41,9 @@
     { "name": "jev.chat", "url": "https://jev.chat", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "只会用 emoji 回复的聊天机器人：情绪与意图判断全靠 Jev（Show HN）" },
     { "name": "Jev predicting your life choices", "url": "https://quiz.seek.ws/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "让 Jev 预测你的人生选择：答几道题，看它对你的判断准不准（Show HN）" },
     { "name": "bykof/peekaboolean", "url": "https://github.com/bykof/peekaboolean", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "Python", "stars": 3, "description": "看图说话的反向操作：图片进，类型化布尔答案出（choice / score / yes-no 带校准）（Show HN）" },
+    { "name": "Jev predicts the 2026 MLB postseason", "url": "https://live.bitgraph.ing/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "用 Jev 逐打席预测 2026 MLB 季后赛：实时概率可视化（Show HN）" },
+    { "name": "Gatekeeper", "url": "https://gatekeeper.dopp.sh/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "prompt 攻防小游戏：说服一个 34MB 的 Jev-like 模型放你进城堡（Show HN）" },
+    { "name": "Dbb1 radio", "url": "https://radio.dbb1.dev/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "Jev 驱动的无尽电台：听什么、怎么排全由决策模型说了算（Show HN）" },
     { "name": "Jevdit", "url": "https://jevdit.com", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "一个由 Jev 当版主的社交网络：每条帖子先过决策模型再上墙（Show HN）" },
     { "name": "nospace — Advanced Autocorrect Powered by Jev", "url": "https://levmiseri.com/nospace/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "Jev 驱动的进阶自动纠错：不只是拼写，而是判断你想说什么" },
     { "name": "agodoy21/enigma-jev", "url": "https://github.com/agodoy21/enigma-jev", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "TypeScript", "stars": 2, "description": "Jev 当布莱切利园密码分析员：用决策模型跑软件 Bombe 破译 Enigma（Show HN）" },
