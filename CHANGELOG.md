@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.14.0] - 2026-10-03
+
+### 新增
+
+- 6 条条目（共 131 条）：
+  - [Amazon releases its own Jev clone（TechCrunch）](https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/) — 第二家巨头入场；
+  - [anth.us 对 OpenAI Luna 的首批实测](https://anth.us/blog/openai-decisions-api-preview/)（24 分 HN）；
+  - [synthpop 50 万次校准实测](https://www.synthpop.ai/resources/does-a-decision-model-know-when-it-is-guessing-post-1) — 高置信 ≠ 高准确；
+  - [Jev Plays Manic Miner](https://www.atomic14.com/2026/09/29/jev-plays-manic-miner) — 1983 年经典平台游戏的决策化重玩；
+  - [Realtime eBay Filtering](https://tv.junkdrawer.ai) — eBay 商品流实时过滤（Show HN）；
+  - [EU/Jev](https://jev.bevel.software/) — 首个欧洲托管的 System One 模型。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-02 → 10-03）
+
+- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：29.7k★ → **30.1k★（破 3 万）**；[firelex/jeff](https://github.com/firelex/jeff)：1.2k★ → 1.3k★；[ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：1.1k★；[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：920★ → 996★（破千在即）；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：21.5k★ → 21.8k★。
+
 ## [0.13.0] - 2026-10-02
 
 ### 新增

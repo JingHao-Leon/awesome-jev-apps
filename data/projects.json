@@ -1,5 +1,5 @@
 {
-  "meta": {"snapshot_date": "2026-10-02", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 125},
+  "meta": {"snapshot_date": "2026-10-03", "description": "awesome-jev-apps 条目数据源。README.md 必须与本文件保持同步（scripts/check.py 负责校验）。stars 为快照当日数值，会随时间变化。", "entry_count": 131},
   "entries": [
     { "name": "browser-use/jev-ultrafast", "url": "https://github.com/browser-use/jev-ultrafast", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": "Python", "stars": 21530, "description": "Jev 选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒" },
     { "name": "trycua/cua", "url": "https://github.com/trycua/cua", "category": "优质开源应用", "subcategory": "Agent 与自动化", "language": null, "stars": 27525, "description": "开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型" },
@@ -44,6 +44,8 @@
     { "name": "Jev predicts the 2026 MLB postseason", "url": "https://live.bitgraph.ing/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "用 Jev 逐打席预测 2026 MLB 季后赛：实时概率可视化（Show HN）" },
     { "name": "Gatekeeper", "url": "https://gatekeeper.dopp.sh/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "prompt 攻防小游戏：说服一个 34MB 的 Jev-like 模型放你进城堡（Show HN）" },
     { "name": "Dbb1 radio", "url": "https://radio.dbb1.dev/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "Jev 驱动的无尽电台：听什么、怎么排全由决策模型说了算（Show HN）" },
+    { "name": "Jev Plays Manic Miner", "url": "https://www.atomic14.com/2026/09/29/jev-plays-manic-miner", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "让 Jev 玩 1983 年经典平台跳跃游戏 Manic Miner：每一次跳跃都是一道判断题" },
+    { "name": "Realtime eBay Filtering with Jev", "url": "https://tv.junkdrawer.ai", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "用 Jev 实时过滤 eBay 商品流：想要的留下，噪音滚蛋（Show HN）" },
     { "name": "Jevdit", "url": "https://jevdit.com", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "一个由 Jev 当版主的社交网络：每条帖子先过决策模型再上墙（Show HN）" },
     { "name": "nospace — Advanced Autocorrect Powered by Jev", "url": "https://levmiseri.com/nospace/", "category": "优质开源应用", "subcategory": "趣味与实验", "language": null, "stars": null, "description": "Jev 驱动的进阶自动纠错：不只是拼写，而是判断你想说什么" },
     { "name": "agodoy21/enigma-jev", "url": "https://github.com/agodoy21/enigma-jev", "category": "优质开源应用", "subcategory": "趣味与实验", "language": "TypeScript", "stars": 2, "description": "Jev 当布莱切利园密码分析员：用决策模型跑软件 Bombe 破译 Enigma（Show HN）" },
@@ -83,6 +85,7 @@
     { "name": "ollaya-dev/ollaya", "url": "https://github.com/ollaya-dev/ollaya", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Rust", "stars": 1021, "description": "决策模型界的 Ollama：pull 并本地运行 Laya / decider / NLI / GLiClass，统一暴露 TypeSafe 兼容 API（530 分 HN）" },
     { "name": "Jeyzma", "url": "https://jeyzma.com/", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": "Go", "stars": null, "description": "Go + WebGPU 把决策模型跑在本地浏览器里：不联网的 typed decisions" },
     { "name": "Ollama 0.35 原生支持 Jev-style 决策模型", "url": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": null, "stars": null, "description": "Ollama 官方公告：0.35 起本地运行 Jev-style 决策模型（如 nimble）成为一等公民" },
+    { "name": "EU/Jev", "url": "https://jev.bevel.software/", "category": "SDK 与集成", "subcategory": "开源复刻与本地平替", "language": null, "stars": null, "description": "首个托管在欧洲的 System One 模型：合规敏感场景的选项（Show HN）" },
     { "name": "Introducing System One Models & Jev", "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方发布公告，Diogo Almeida 署名（2026-09-15）" },
     { "name": "docs.typesafe.ai", "url": "https://docs.typesafe.ai", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "文档站（105 页，含 18 个官方 Cookbooks 与 Patterns 模式库）" },
     { "name": "Jev 1.13 毛刺度说明", "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13", "category": "官方资源", "subcategory": null, "language": null, "stars": null, "description": "官方模型不擅长什么清单" },
@@ -118,6 +121,9 @@
     { "name": "OpenAI Answers TypeSafe's Jev with a Decision API Built on Luna（The New Stack）", "url": "https://thenewstack.io/openai-decision-api-luna/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "生态里程碑：OpenAI 用 Luna 构建 Decision API 正面回应 Jev——巨头入场" },
     { "name": "What if Jev spoke Arrow?（columnar.tech）", "url": "https://columnar.tech/blog/what-if-jev-spoke-arrow/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "让 Jev 说 Arrow 列式协议：决策引擎下沉到数据湖的思路实验（42 分 HN）" },
     { "name": "Jev-as-a-Judge: Accept When Confident, Escalate When Unsure（arXiv）", "url": "https://arxiv.org/abs/2609.26550", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "学术论文：置信即接受、存疑即升级的 Jev 裁判框架——学术圈开始跟进" },
+    { "name": "Amazon releases its own Jev clone（TechCrunch）", "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "生态里程碑：第二家巨头入场，决策模型全面开花" },
+    { "name": "OpenAI has a LOT of work to do if they think Luna can compete with Jev（anth.us）", "url": "https://anth.us/blog/openai-decisions-api-preview/", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "对 OpenAI Luna Decision API 的首批实测与批判（24 分 HN）" },
+    { "name": "Can Jev be trusted when it is confident?（synthpop）", "url": "https://www.synthpop.ai/resources/does-a-decision-model-know-when-it-is-guessing-post-1", "category": "教程与评测", "subcategory": null, "language": null, "stars": null, "description": "50 万次 API 调用的校准实测：高置信 ≠ 高准确（6 分 HN）" },
     { "name": "《Jev 工程学：为 coding agent 而作》中文翻译", "url": "https://github.com/yibie/jev-engineering-zh", "category": "教程与评测", "subcategory": null, "language": null, "stars": 128, "description": "Diogo Almeida 设计笔记的完整中文翻译（独立汇编，附原 PDF 与七张插图）" },
     { "name": "HN: Introducing System One Models and Jev", "url": "https://news.ycombinator.com/item?id=49717558", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "1931 分 / 509 评论（2026-09-15）" },
     { "name": "Show HN: CUA-S1", "url": "https://news.ycombinator.com/item?id=49781612", "category": "社区讨论", "subcategory": null, "language": null, "stars": null, "description": "TryCua 计算机操作专用模型发布帖" },
