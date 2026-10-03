@@ -19,6 +19,14 @@
 
 当前收录 **131** 条资源（[优质开源应用](#优质开源应用) **56** · [SDK 与集成](#sdk-与集成) **29** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **33** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
+📈 清单发布 12 天，从 64 条长到 **131** 条——每晚 0 点自动调研、验真、快照，全程留痕于 [CHANGELOG](CHANGELOG.md)。
+
+<p align="center">
+  <img src="docs/screenshots/hero.png" alt="左：Gatekeeper——说服像素守卫放你进城堡的 prompt 攻防游戏；右：BitGraph——Jev 与 ChatGPT、Claude 在 MLB 季后赛上的实盘预测对比" width="860">
+  <br>
+  <sub>趣味与实验板块实拍：说服像素守卫（左）· Jev 在 MLB 季后赛与 ChatGPT/Claude 实盘对赌（右）</sub>
+</p>
+
 <table>
   <tr>
     <td align="center">🚀<br><b><a href="#优质开源应用">优质开源应用</a></b><br>Agent · 交易 · 开发工具</td>
@@ -31,6 +39,7 @@
 
 ## 目录
 
+- [🎯 如果只看 5 个](#如果只看-5-个)
 - [Jev 是什么（60 秒版）](#jev-是什么60-秒版)
 - [30 秒上手](#30-秒上手)
 - [选型速查](#选型速查)
@@ -42,6 +51,16 @@
 - [FAQ](#faq)
 - [收录标准与投稿](#收录标准与投稿)
 - [局限与说明](#局限与说明)
+
+## 🎯 如果只看 5 个
+
+> 时间紧？这 5 个最能回答「Jev 到底有什么用」：
+
+1. 🏰 [**Gatekeeper**](https://gatekeeper.dopp.sh/) — 说服一个 34MB 模型放你进城堡：玩 3 分钟就懂什么叫「带置信度的判断」
+2. ⚾ [**MLB 季后赛实盘**](https://live.bitgraph.ing/) — Jev vs ChatGPT vs Claude 真金白银对赌 2026 季后赛（见头图右半）
+3. 🏎️ [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — 21.8k★：Jev 选动作的浏览器 agent，Google Flights 实操 7.1 秒
+4. 🧠 [**firelex/jeff**](https://github.com/firelex/jeff) — 546 分 HN：在家训练 0.8B 决策模型，22 毫秒出带概率的答案
+5. 🧩 [**官方 30 秒上手**](#30-秒上手) — choice / score / noul 三种原语，一次请求，五个例子读懂全部 API
 
 ## Jev 是什么（60 秒版）
 
@@ -103,7 +122,7 @@ const r = await client.systemOne({
 
 ## 优质开源应用
 
-> ★ 数为 2026-10-03 快照，随时间变化。
+> 「把 Jev 用起来」长什么样？下面 56 个项目就是答案——从 21.8k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-03 快照，随时间变化。
 
 ### Agent 与自动化
 
@@ -140,37 +159,50 @@ const r = await client.systemOne({
 - [**sagarmainkar/jev-wall**](https://github.com/sagarmainkar/jev-wall) — 基于 Jev 的 LLM 护栏（`Python`）
 - [**decision-models-under-pressure**](https://github.com/gazelle93/decision-models-under-pressure) — 七个决策模型在三重压力下的实测：候选列表膨胀、选项顺序扰动、错误答案注入（`Python`）
 
-### 趣味与实验
+### 🎪 趣味与实验
 
-- [**can-you-beat-jev**](https://antics.gg/can-you-beat-jev) — 人机对战小游戏：和 Jev 比拼同一道判断题
-- [**1kpapers**](https://www.1kpapers.com) — 用 Jev 给 1018 篇论文做分类，总成本 $0.08 的极限压价实验
-- [**fly.rahmanyoonus.com**](https://fly.rahmanyoonus.com) — Jev 驱动的实时飞行决策演示
-- [**kzkhykw/jev-auto-ime**](https://github.com/kzkhykw/jev-auto-ime) — 问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具（`Python`，11★）
-- [**shapsider/OmniJev**](https://github.com/shapsider/OmniJev) — 多模态有限选择决策接口 + MuJoCo 具身实验台：轨迹回放、决策探针、基准面板（`Python`，13★）
-- [**JunMa11/MedJev**](https://github.com/JunMa11/MedJev) — 自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内（`Python`，87★）
-- [**jev-aita**](https://github.com/dchristopoulos/jev-aita) — 用 Jev 审 770 篇 Reddit「Am I the Asshole」判决：与 Sonnet 5 / GPT-5 nano / 本地 LLM 比 Brier 分、延迟与成本（`Python`，19 分 HN 热帖）
-- [**Clue Me**](https://yorohan.com/clue-me) — 你描述拿到手的词，让 Jev 来猜：Show HN 猜词游戏
-- [**Jev Does Not Play Dice**](https://kantahayashiai.github.io/posts/jev-does-not-play-dice/) — 让 Jev 猜暗置骰子：83% 置信度只换来 19% 准确率，置信度校准的边界实验
-- [**Slop Mop**](https://slopmop.lol) — Jev 驱动的 Chrome 插件：一键擦掉 LinkedIn 信息流里的 AI slop
-- [**Rebuilt Captcha with Jev**](https://www.localcan.com/blog/build-your-own-captcha) — 用 Jev 造一个「证明你是人」的验证码：反向思路的脑洞教程
-- [**Jev Plays Pokémon Red**](https://jev-pokemon.vercel.app/) — Show HN：让 Jev 玩《宝可梦红》，每一步移动都是一道带概率的判断题
-- [**Herobrine**](https://github.com/xatuke/herobrine) — Minecraft 迷你伙伴 agent：行为决策全部交给 Jev（Show HN，`JavaScript`）
+> 本清单的灵魂板块。规则很简单：每个都值得点开玩 3 分钟。
+
+**🎮 让 Jev 上场**
+
+- [**Gatekeeper**](https://gatekeeper.dopp.sh/) — 🏰 说服一个 34MB 的 Jev-like 模型放你进城堡：prompt 攻防游戏（Show HN）
+- [**Jev Plays Pokémon Red**](https://jev-pokemon.vercel.app/) — 让 Jev 玩《宝可梦红》，每一步移动都是一道带概率的判断题（Show HN）
+- [**Jev Plays Manic Miner**](https://www.atomic14.com/2026/09/29/jev-plays-manic-miner) — 1983 年经典平台跳跃游戏的决策化重玩：每一次跳跃都是一道判断题
+- [**can-you-beat-jev**](https://antics.gg/can-you-beat-jev) — ⚔️ 人机对战：和 Jev 比拼同一道判断题
+- [**Clue Me**](https://yorohan.com/clue-me) — 🗣️ 你描述拿到手的词，让 Jev 来猜（Show HN）
+- [**Herobrine**](https://github.com/xatuke/herobrine) — ⛏️ Minecraft 迷你伙伴 agent：行为决策全部交给 Jev（Show HN，`JavaScript`）
+- [**jev_civilization**](https://github.com/JonesSteven/jev_civilization) — 🏛️ 部落由 Jev 自主决策的文明模拟：你塑环境，它演历史（Show HN，`TypeScript`）
+
+**🔮 预测：它真的懂你吗**
+
+- [**Jev predicting your life choices**](https://quiz.seek.ws/) — 答 10 道题，看 Jev 对你人生选择的判断准不准（Show HN）
+- [**Jev predicting the 2026 MLB postseason**](https://live.bitgraph.ing/) — ⚾ 逐打席预测 MLB 季后赛：Jev vs ChatGPT vs Claude 真金白银实盘（Show HN，头图右半就是它）
+- [**jev-aita**](https://github.com/dchristopoulos/jev-aita) — ⚖️ 用 Jev 审 770 篇 Reddit「Am I the Asshole」判决：与 Sonnet 5 / GPT-5 nano 比 Brier 分、延迟与成本（19 分 HN 热帖，`Python`）
+- [**Dbb1 radio**](https://radio.dbb1.dev/) — 📻 无尽电台：听什么、怎么排全由决策模型说了算（Show HN）
+- [**Realtime eBay Filtering**](https://tv.junkdrawer.ai) — 🛍️ eBay 商品流实时过滤：想要的留下，噪音滚蛋（Show HN）
+- [**Slop Mop**](https://slopmop.lol) — 🧹 Chrome 插件：一键擦掉 LinkedIn 信息流里的 AI slop
+- [**Jevdit**](https://jevdit.com) — 📌 由 Jev 当版主的社交网络：每条帖子先过决策模型再上墙（Show HN）
+- [**nospace**](https://levmiseri.com/nospace/) — ✏️ 进阶自动纠错：不判断拼写对错，而是判断你想说什么
+
+**🧪 脑洞：原来还能这么用**
+
 - [**jevlang**](https://github.com/RoyWiggins/jevlang) — 一种 Python 方言：每个 if / elif / while / match 的条件都交给 Jev 决定（Show HN 脑洞，`Python`）
-- [**jev.chat**](https://jev.chat) — 只会用 emoji 回复的聊天机器人：情绪与意图判断全靠 Jev（Show HN）
-- [**Jev predicting your life choices**](https://quiz.seek.ws/) — 让 Jev 预测你的人生选择：答几道题，看它对你的判断准不准（Show HN）
-- [**bykof/peekaboolean**](https://github.com/bykof/peekaboolean) — 看图说话的反向操作：图片进，类型化布尔答案出，带校准概率（Show HN，`Python`）
-- [**Jev predicting the 2026 MLB postseason**](https://live.bitgraph.ing/) — 用 Jev 逐打席预测 2026 MLB 季后赛：实时概率可视化（Show HN）
-- [**Gatekeeper**](https://gatekeeper.dopp.sh/) — prompt 攻防小游戏：说服一个 34MB 的 Jev-like 模型放你进城堡（Show HN）
-- [**Dbb1 radio**](https://radio.dbb1.dev/) — Jev 驱动的无尽电台：听什么、怎么排全由决策模型说了算（Show HN）
-- [**Jev Plays Manic Miner**](https://www.atomic14.com/2026/09/29/jev-plays-manic-miner) — 让 Jev 玩 1983 年经典平台跳跃游戏 Manic Miner：每一次跳跃都是一道判断题
-- [**Realtime eBay Filtering**](https://tv.junkdrawer.ai) — 用 Jev 实时过滤 eBay 商品流：想要的留下，噪音滚蛋（Show HN）
-- [**Jevdit**](https://jevdit.com) — 一个由 Jev 当版主的社交网络：每条帖子先过决策模型再上墙（Show HN）
-- [**nospace**](https://levmiseri.com/nospace/) — Jev 驱动的进阶自动纠错：不只是拼写，而是判断你想说什么
+- [**jev.chat**](https://jev.chat) — 💬 只会用 emoji 回复的聊天机器人：情绪与意图判断全靠 Jev（Show HN）
+- [**enigma-jev**](https://github.com/agodoy21/enigma-jev) — 🕵️ Jev 当布莱切利园密码分析员：用决策模型跑软件 Bombe 破译 Enigma（Show HN，`TypeScript`）
 - [**jev-talks**](https://github.com/zie1ony/jev-talks) — 「我让 Jev 说话了」：测一测决策模型到底会不会聊天（Show HN，`Python`）
-- [**enigma-jev**](https://github.com/agodoy21/enigma-jev) — Jev 当布莱切利园密码分析员：用决策模型跑软件 Bombe 破译 Enigma（Show HN，`TypeScript`）
-- [**jev_civilization**](https://github.com/JonesSteven/jev_civilization) — 部落由 Jev 自主决策的文明模拟：你塑环境，它演历史（Show HN，`TypeScript`）
-- [**Open Jev Playground**](https://www.beam.cloud/playground) — 一站式在线试所有 Jev 开源平替（Show HN）
-- [**semanticspace.dev**](https://semanticspace.dev) — 2D 语义空间可视化探索：把 Jev 的判断摊在一张地图上看
+- [**kzkhykw/jev-auto-ime**](https://github.com/kzkhykw/jev-auto-ime) — ⌨️ 问 Jev「现在打的是日语还是英语」，据此自动切换 Mac 输入法的脑洞小工具（`Python`，11★）
+- [**Rebuilt Captcha with Jev**](https://www.localcan.com/blog/build-your-own-captcha) — 用 Jev 造一个「证明你是人」的验证码：反向思路的脑洞教程
+- [**1kpapers**](https://www.1kpapers.com) — 📄 给 1018 篇论文做分类，总成本 $0.08 的极限压价实验
+- [**bykof/peekaboolean**](https://github.com/bykof/peekaboolean) — 👀 看图说话的反向操作：图片进，类型化布尔答案出，带校准概率（Show HN，`Python`）
+
+**🔬 硬核实验与真实落地**
+
+- [**Jev Does Not Play Dice**](https://kantahayashiai.github.io/posts/jev-does-not-play-dice/) — 🎲 猜暗置骰子：83% 置信度只换来 19% 准确率——校准的边界一目了然
+- [**shapsider/OmniJev**](https://github.com/shapsider/OmniJev) — 🤖 多模态有限选择决策接口 + MuJoCo 具身实验台：轨迹回放、决策探针、基准面板（`Python`，13★）
+- [**JunMa11/MedJev**](https://github.com/JunMa11/MedJev) — 🏥 自由文本病历 → 表格化临床变量：一块消费级 GPU 每小时处理数千份，数据不出院内（`Python`，87★）
+- [**fly.rahmanyoonus.com**](https://fly.rahmanyoonus.com) — ✈️ Jev 驱动的实时飞行决策演示
+- [**semanticspace.dev**](https://semanticspace.dev) — 🗺️ 2D 语义空间可视化探索：把 Jev 的判断摊在一张地图上看
+- [**Open Jev Playground**](https://www.beam.cloud/playground) — 🛝 一站式在线试所有 Jev 开源平替（Show HN）
 
 ### 值得一看的 Web 演示
 
@@ -180,6 +212,8 @@ const r = await client.systemOne({
 - [**kydlikebtc/awesome-jev**](https://github.com/kydlikebtc/awesome-jev) — 805 条按决策类型索引的示例目录：CI 每周复验、双语、[可检索站点](https://kydlikebtc.github.io/awesome-jev/)（同名仓库中经核验的优质者）（`Python`，582★）
 
 ## SDK 与集成
+
+> 官方 TS/Python 开箱即用；社区两周内把 .NET、Elixir、Rust、Go、Java、Ruby、Swift 补齐了，连 Ollama 都原生支持了。
 
 ### 官方
 
@@ -234,6 +268,8 @@ const r = await client.systemOne({
 - [github.com/typesafe-ai](https://github.com/typesafe-ai) — 官方 GitHub 组织
 
 ## 深度教程与评测
+
+> 不吹不黑：既有 Raschka 的历史脉络和 Victor Dibia 的图解，也有「所有模型都高估漏洞严重性」「50 万次调用证明高置信 ≠ 高准确」这样的负结果。
 
 - [How to Use Jev: A Practical Guide（Dev.to）](https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e) — 目前最全面的实操文：使用模式、失败模式、48 小时生态盘点
 - [A deep dive into Jev（Flavio Copes）](https://flaviocopes.com/jev/) — "会思考的智能 if 语句"：原语、组合模式与局限全覆盖
