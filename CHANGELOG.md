@@ -2,6 +2,21 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.15.0] - 2026-10-04
+
+### 新增
+
+- 1 条条目（共 132 条）：[Jev for Python Engineers（Vercel 官方）](https://vercel.com/blog/jev-for-python-engineers)——平台大厂背书的 Python 工程师入门教程。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-03 → 10-04）
+
+- [kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：996★ → **1k★（破千）**；[ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya)：1.1k★ → 1.2k★；[PostHog/jeeves](https://github.com/PostHog/jeeves)：393★ → 400★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：8.3k★ → 8.4k★；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：21.8k★ → 21.9k★。
+
+### 说明
+
+- 生态进入周末平缓期：HN 当日无高分新条目，GitHub 无值得收录的新仓库（多条低分教程类按宁缺毋滥跳过）。
+
 ## [0.14.0] - 2026-10-03
 
 ### 新增
