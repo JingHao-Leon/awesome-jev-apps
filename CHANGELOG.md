@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.16.0] - 2026-10-05
+
+### 新增
+
+- 2 条条目（共 134 条）：
+  - [Better Call Jev](https://bettercalljev.vercel.app) — 名字即梗的 Show HN：让决策模型替你拿主意（趣味与实验）；
+  - [kouhxp/gutsy](https://github.com/kouhxp/gutsy)（24★）— CPU 就能跑的微型本地决策模型，两度登 HN（开源复刻与本地平替）。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-04 → 10-05）
+
+- [egma-ai/jev-code-reviewer](https://github.com/egma-ai/jev-code-reviewer)：111★ → 132★（+19%）；[Avinash-jetwani/jevmem](https://github.com/Avinash-jetwani/jevmem)：106★ → 117★（+10%）；[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)：21.9k★ → 22k★（破 2.2 万）；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：30.4k★ → 30.6k★。
+
+### 未收录说明
+
+- WSJ 对 TypeSafe 生态的报道：付费墙（探活 401），对无订阅读者不可读，暂缓收录。
+
 ## [0.15.0] - 2026-10-04
 
 ### 新增
