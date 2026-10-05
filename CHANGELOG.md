@@ -2,6 +2,22 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.17.0] - 2026-10-06
+
+### 新增
+
+- 5 条条目（共 139 条）：
+  - [Reverse.horse](https://reverse.horse/) — **把人类大脑做成 Jev 兼容 API**：「由你那可怜的人类大脑驱动」的众包决策后端（Show HN，本日最脑洞）；
+  - [Jurl](https://jurl.dev/) — 会读网页的 curl：先让 Jev 读懂页面再返回数据（5 分 HN，开发者工具）；
+  - [Jamming with Jev and Claude on TidalCycles](https://jdsemrau.substack.com/p/jamming-with-jev-and-claude-on-tidalcycles) — Jev + Claude 在现场编码音乐里即兴演奏（Show HN）；
+  - [DoubtBench](https://github.com/deeplearningguy/doubtbench) — 人类意见分歧时 Jev 知道吗：分歧感知基准（Show HN）；
+  - [System One models can train their own replacements（seangoedecke）](https://www.seangoedecke.com/system-one-models-can-train-their-own-replacements/) — 观点文：决策模型能训练自己的替代品。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 里程碑
+
+- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 30.9k★、[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 22.1k★、[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) 破千后达 1,028★、[ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) 1,201★——收录的复刻与工具全线稳步上行。
+
 ## [0.16.0] - 2026-10-05
 
 ### 新增

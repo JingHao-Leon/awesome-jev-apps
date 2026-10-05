@@ -8,7 +8,7 @@
 [![Jev](https://img.shields.io/badge/Jev-jev--1.13.0-4F46E5)](https://docs.typesafe.ai)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-1931_points-FF6600)](https://news.ycombinator.com/item?id=49717558)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#收录标准与投稿)
-[![生态快照](https://img.shields.io/badge/生态快照-2026.10.05-blue)](#局限与说明)
+[![生态快照](https://img.shields.io/badge/生态快照-2026.10.06-blue)](#局限与说明)
 [![CI](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml)
 
 </div>
@@ -17,9 +17,9 @@
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
 
-当前收录 **134** 条资源（[优质开源应用](#优质开源应用) **57** · [SDK 与集成](#sdk-与集成) **30** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **34** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+当前收录 **139** 条资源（[优质开源应用](#优质开源应用) **60** · [SDK 与集成](#sdk-与集成) **30** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **36** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
-📈 清单发布 14 天，从 64 条长到 **134** 条——每晚 0 点自动调研、验真、快照，全程留痕于 [CHANGELOG](CHANGELOG.md)。
+📈 清单发布 15 天，从 64 条长到 **139** 条——每晚 0 点自动调研、验真、快照，全程留痕于 [CHANGELOG](CHANGELOG.md)。
 
 <p align="center">
   <img src="docs/screenshots/hero.png" alt="左：Gatekeeper——说服像素守卫放你进城堡的 prompt 攻防游戏；右：BitGraph——Jev 与 ChatGPT、Claude 在 MLB 季后赛上的实盘预测对比" width="860">
@@ -122,11 +122,11 @@ const r = await client.systemOne({
 
 ## 优质开源应用
 
-> 「把 Jev 用起来」长什么样？下面 57 个项目就是答案——从 22k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-05 快照，随时间变化。
+> 「把 Jev 用起来」长什么样？下面 59 个项目就是答案——从 22.1k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-06 快照，随时间变化。
 
 ### Agent 与自动化
 
-- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，22k★）
+- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，22.1k★）
 - [**trycua/cua**](https://github.com/trycua/cua) — 开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型（26k★）
 - [**jev-chat/jev-chat-jarvis**](https://github.com/jev-chat/jev-chat-jarvis) — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框；非侵入只读屏幕（`Kotlin`，6.5k★，中文项目）
 - [**imanshu03/jev-browser-use**](https://github.com/imanshu03/jev-browser-use) — 基于 Jev + CDP/Chromium 的轻量浏览器自动化（`Python`）
@@ -150,7 +150,8 @@ const r = await client.systemOne({
 - [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) — 给 agent 一个又快又便宜的小决策第二大脑：模型路由、记忆、压缩、技能选择全交给 Jev（`Python`，1k★）
 - [**aurorainfra/grev**](https://github.com/aurorainfra/grev) — Thinking Grep：会思考的 coreutils，grep 的候选判断交给 Jev（`Go`，52★）
 - [**egma-ai/jev-code-reviewer**](https://github.com/egma-ai/jev-code-reviewer) — Review behavior, not just diffs：Jev 排 human 注意力优先级、OpenAI 解释改动，本地 CLI（`JavaScript`，45 分 HN）
-- [**Avinash-jetwani/jevmem**](https://github.com/Avinash-jetwani/jevmem) — Claude Code 的自动项目记忆层（Cursor / Codex 也能用），读写判断交给 Jev（`TypeScript`，90★，61 分 HN）
+- [**Avinash-jetwani/jevmem**](https://github.com/Avinash-jetwani/jevmem) — Claude Code 的自动项目记忆层（Cursor / Codex 也能用），读写判断交给 Jev（`TypeScript`，121★，61 分 HN）
+- [**Jurl**](https://jurl.dev/) — 会读网页的 curl：jurl 先让 Jev 读懂页面再返回你要的数据（5 分 HN）
 - [**PostHog/jeeves**](https://github.com/PostHog/jeeves) — PostHog 出品：给 Jev-like 决策模型加推理步骤，准确率显著提升（`Python`，400★，152 分 HN）
 
 ### 评测与护栏
@@ -184,6 +185,8 @@ const r = await client.systemOne({
 - [**Jevdit**](https://jevdit.com) — 📌 由 Jev 当版主的社交网络：每条帖子先过决策模型再上墙（Show HN）
 - [**nospace**](https://levmiseri.com/nospace/) — ✏️ 进阶自动纠错：不判断拼写对错，而是判断你想说什么
 - [**Better Call Jev**](https://bettercalljev.vercel.app) — 📞 名字即梗的 Show HN：遇到难题？Better Call Jev——让决策模型替你拿主意
+- [**Reverse.horse**](https://reverse.horse/) — 🧠 把人类大脑做成 Jev 兼容 API：「由你那可怜的人类大脑驱动」的众包决策后端（Show HN）
+- [**Jamming with Jev and Claude on TidalCycles**](https://jdsemrau.substack.com/p/jamming-with-jev-and-claude-on-tidalcycles) — 🎵 用 Jev + Claude 在 TidalCycles 现场编码音乐里即兴演奏（Show HN）
 
 **🧪 脑洞：原来还能这么用**
 
@@ -247,7 +250,7 @@ const r = await client.systemOne({
 
 ### 开源复刻与本地平替
 
-- [**NandhaKishorM/laya**](https://github.com/NandhaKishorM/laya) — 非自回归 System 1 决策引擎：单次前向输出 choice / score / noul，开源复刻榜首（`Python`，30.6k★）
+- [**NandhaKishorM/laya**](https://github.com/NandhaKishorM/laya) — 非自回归 System 1 决策引擎：单次前向输出 choice / score / noul，开源复刻榜首（`Python`，30.9k★）
 - [**firelex/jeff**](https://github.com/firelex/jeff) — 在家训练的 0.8B Jev 兼容决策模型：Qwen3.5 / Gemma 4 微调，RTX 22ms / M4 Max 28ms，同款请求格式（`Python`，1.4k★，546 分 HN）
 - [**TheoLeeCJ/SemIf-OpenJev**](https://github.com/TheoLeeCJ/SemIf-OpenJev) — 用开源模型在家用 3090 上跑「语义 if」；独立项目，与 TypeSafe 无隶属（`Python`，4.3k★）
 - [**TianyuCodings/NanoJev**](https://github.com/TianyuCodings/NanoJev) — nano 复刻：并行决策、动态候选、端到端训练管线（`Python`，2.2k★）
@@ -306,6 +309,8 @@ const r = await client.systemOne({
 - [OpenAI has a LOT of work to do if they think Luna can compete with Jev（anth.us）](https://anth.us/blog/openai-decisions-api-preview/) — 对 OpenAI Luna Decision API 的首批实测与批判（24 分 HN）
 - [Can Jev be trusted when it is confident?（synthpop）](https://www.synthpop.ai/resources/does-a-decision-model-know-when-it-is-guessing-post-1) — 50 万次 API 调用的校准实测：高置信 ≠ 高准确（6 分 HN）
 - [Jev for Python Engineers（Vercel 官方）](https://vercel.com/blog/jev-for-python-engineers) — Vercel 官方面向 Python 工程师的入门教程
+- [DoubtBench](https://github.com/deeplearningguy/doubtbench) — 人类意见分歧时 Jev 知道吗：分歧感知基准（Show HN）
+- [System One models can train their own replacements（seangoedecke）](https://www.seangoedecke.com/system-one-models-can-train-their-own-replacements/) — 观点文：System One 模型能训练自己的替代品——对就业叙事的冷静推演
 
 ## 社区讨论
 
@@ -358,7 +363,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 ## 局限与说明
 
-- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-05 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
+- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-06 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
 - **数字口径**：性能对比（193.6x / 444.6x、"零幻觉"）为官方自报口径，本清单在引用处已标注"官方声称"；批判性视角见 [TrueFoundry 分析](https://www.truefoundry.com/blog/typesafe-ai-jev)；
 - **不背书**：收录 ≠ 推荐，第三方项目质量请自行评估；GitHub 上另有多个同名 `awesome-jev` 仓库（部分为搬运聚合号），引用时注意甄别；
 - **Jev 本身的局限**（综合官方文档与第三方评测）：不能算术、计数、日期比较；不能生成文本；不支持图片 / 音频输入；state 可被对抗性文本操纵；置信度校准在分布漂移时可能失效。
