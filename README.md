@@ -8,7 +8,7 @@
 [![Jev](https://img.shields.io/badge/Jev-jev--1.13.0-4F46E5)](https://docs.typesafe.ai)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-1931_points-FF6600)](https://news.ycombinator.com/item?id=49717558)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#收录标准与投稿)
-[![生态快照](https://img.shields.io/badge/生态快照-2026.10.06-blue)](#局限与说明)
+[![生态快照](https://img.shields.io/badge/生态快照-2026.10.07-blue)](#局限与说明)
 [![CI](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml)
 
 </div>
@@ -122,11 +122,11 @@ const r = await client.systemOne({
 
 ## 优质开源应用
 
-> 「把 Jev 用起来」长什么样？下面 59 个项目就是答案——从 22.1k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-06 快照，随时间变化。
+> 「把 Jev 用起来」长什么样？下面 59 个项目就是答案——从 22.2k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-07 快照，随时间变化。
 
 ### Agent 与自动化
 
-- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，22.1k★）
+- [**browser-use/jev-ultrafast**](https://github.com/browser-use/jev-ultrafast) — "i. am. speed."：Jev 负责选动作、只在需要打字时才唤醒 LLM 的浏览器 agent，Google Flights 实操演示 7.1 秒（`Python`，22.2k★）
 - [**trycua/cua**](https://github.com/trycua/cua) — 开源计算机操作 agent 框架，内置 CUA-S1：计算机操作决策专用小型模型（26k★）
 - [**jev-chat/jev-chat-jarvis**](https://github.com/jev-chat/jev-chat-jarvis) — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框；非侵入只读屏幕（`Kotlin`，6.5k★，中文项目）
 - [**imanshu03/jev-browser-use**](https://github.com/imanshu03/jev-browser-use) — 基于 Jev + CDP/Chromium 的轻量浏览器自动化（`Python`）
@@ -250,7 +250,7 @@ const r = await client.systemOne({
 
 ### 开源复刻与本地平替
 
-- [**NandhaKishorM/laya**](https://github.com/NandhaKishorM/laya) — 非自回归 System 1 决策引擎：单次前向输出 choice / score / noul，开源复刻榜首（`Python`，30.9k★）
+- [**NandhaKishorM/laya**](https://github.com/NandhaKishorM/laya) — 非自回归 System 1 决策引擎：单次前向输出 choice / score / noul，开源复刻榜首（`Python`，31.1k★）
 - [**firelex/jeff**](https://github.com/firelex/jeff) — 在家训练的 0.8B Jev 兼容决策模型：Qwen3.5 / Gemma 4 微调，RTX 22ms / M4 Max 28ms，同款请求格式（`Python`，1.4k★，546 分 HN）
 - [**TheoLeeCJ/SemIf-OpenJev**](https://github.com/TheoLeeCJ/SemIf-OpenJev) — 用开源模型在家用 3090 上跑「语义 if」；独立项目，与 TypeSafe 无隶属（`Python`，4.3k★）
 - [**TianyuCodings/NanoJev**](https://github.com/TianyuCodings/NanoJev) — nano 复刻：并行决策、动态候选、端到端训练管线（`Python`，2.2k★）
@@ -363,7 +363,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 ## 局限与说明
 
-- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-06 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
+- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-07 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
 - **数字口径**：性能对比（193.6x / 444.6x、"零幻觉"）为官方自报口径，本清单在引用处已标注"官方声称"；批判性视角见 [TrueFoundry 分析](https://www.truefoundry.com/blog/typesafe-ai-jev)；
 - **不背书**：收录 ≠ 推荐，第三方项目质量请自行评估；GitHub 上另有多个同名 `awesome-jev` 仓库（部分为搬运聚合号），引用时注意甄别；
 - **Jev 本身的局限**（综合官方文档与第三方评测）：不能算术、计数、日期比较；不能生成文本；不支持图片 / 音频输入；state 可被对抗性文本操纵；置信度校准在分布漂移时可能失效。
