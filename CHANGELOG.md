@@ -2,6 +2,21 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.18.0] - 2026-10-08
+
+### 新增
+
+- 4 条条目（共 143 条）：
+  - [Jev-Driven SRE Diagnosis（SRE Gym）](https://www.sregym.com/blog/jev-driven-sre-diagnosis) — **47 分 HN**：SRE 运维诊断的成败全复盘；
+  - [Jev Plays Chess](https://byrencheema.com/writing/jev-plays-chess/) — 游戏系列第三弹：国际象棋（趣味与实验）；
+  - [Jev for Voice Agents（veris.ai）](https://veris.ai/blog/jev-turn-detection) — 语音轮次检测实战；
+  - [矿场场景实测（hivekit）](https://hivekit.io/blog/do-jev-decision-models-work-for-mine-operations/) — 冷门行业的真实落地尝试。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-07 → 10-08）
+
+- [kouhxp/gutsy](https://github.com/kouhxp/gutsy)：31★ → 40★（收录次日 +29%，连续两日高增长）；[firelex/jeff](https://github.com/firelex/jeff)：1.4k★；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：31.4k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：8.6k★。
+
 ## [0.17.0] - 2026-10-06
 
 ### 新增
