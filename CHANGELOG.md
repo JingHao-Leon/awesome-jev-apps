@@ -2,6 +2,23 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.19.0] - 2026-10-09
+
+### 新增
+
+- 2 条条目（共 145 条）：
+  - [Desktop Pet](https://pet.rxlab.app) — 桌面宠物的分工架构：LLM 管说话、Jev 管姿势（Show HN，趣味与实验）；
+  - [Use Jev to delete fundraising emails（Hugging Face 官方博客）](https://huggingface.co/blog/stephen-solka/use-jev-to-delete-fundraising-emails) — HF 官方博客的邮件清理实战（教程与评测）。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-08 → 10-09）
+
+- [kouhxp/gutsy](https://github.com/kouhxp/gutsy)：40★ → 46★（收录三日 +92%）；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：31.4k★ → 31.7k★；[firelex/jeff](https://github.com/firelex/jeff)：1.4k★ → 1.5k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：8.6k★ → 8.7k★。
+
+### 未收录说明
+
+- Agent.reviews（63 分 HN，本日最高分）：页面无任何 Jev / TypeSafe 相关内容，与 Jev 无关，不收录。
+
 ## [0.18.0] - 2026-10-08
 
 ### 新增

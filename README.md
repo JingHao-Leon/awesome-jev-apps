@@ -8,7 +8,7 @@
 [![Jev](https://img.shields.io/badge/Jev-jev--1.13.0-4F46E5)](https://docs.typesafe.ai)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-1931_points-FF6600)](https://news.ycombinator.com/item?id=49717558)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#收录标准与投稿)
-[![生态快照](https://img.shields.io/badge/生态快照-2026.10.08-blue)](#局限与说明)
+[![生态快照](https://img.shields.io/badge/生态快照-2026.10.09-blue)](#局限与说明)
 [![CI](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/JingHao-Leon/awesome-jev-apps/actions/workflows/ci.yml)
 
 </div>
@@ -17,9 +17,9 @@
 
 > English: A curated, quality-first list of apps, SDKs, integrations, open replicas, and guides built with **Jev**, the first "System One" decision model by TypeSafe AI — typed, calibrated answers instead of generated text. 70–500 ms latency, $0.042 per million input tokens, output free.
 
-当前收录 **143** 条资源（[优质开源应用](#优质开源应用) **61** · [SDK 与集成](#sdk-与集成) **30** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **39** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
+当前收录 **145** 条资源（[优质开源应用](#优质开源应用) **62** · [SDK 与集成](#sdk-与集成) **30** · [官方资源](#官方资源) **6** · [教程与评测](#深度教程与评测) **40** · [社区讨论](#社区讨论) **7**），条目数据同步维护在 [`data/projects.json`](data/projects.json)，由 [`scripts/check.py`](scripts/check.py) 做一致性校验。
 
-📈 清单发布 16 天，从 64 条长到 **143** 条——每晚 0 点自动调研、验真、快照，全程留痕于 [CHANGELOG](CHANGELOG.md)。
+📈 清单发布 17 天，从 64 条长到 **145** 条——每晚 0 点自动调研、验真、快照，全程留痕于 [CHANGELOG](CHANGELOG.md)。
 
 <p align="center">
   <img src="docs/screenshots/hero.png" alt="左：Gatekeeper——说服像素守卫放你进城堡的 prompt 攻防游戏；右：BitGraph——Jev 与 ChatGPT、Claude 在 MLB 季后赛上的实盘预测对比" width="860">
@@ -122,7 +122,7 @@ const r = await client.systemOne({
 
 ## 优质开源应用
 
-> 「把 Jev 用起来」长什么样？下面 61 个项目就是答案——从 22.2k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-08 快照，随时间变化。
+> 「把 Jev 用起来」长什么样？下面 62 个项目就是答案——从 22.4k★ 的浏览器 agent 到跑在 M4 Max 上的 0.8B 小模型。★ 数为 2026-10-09 快照，随时间变化。
 
 ### Agent 与自动化
 
@@ -188,6 +188,7 @@ const r = await client.systemOne({
 - [**Reverse.horse**](https://reverse.horse/) — 🧠 把人类大脑做成 Jev 兼容 API：「由你那可怜的人类大脑驱动」的众包决策后端（Show HN）
 - [**Jamming with Jev and Claude on TidalCycles**](https://jdsemrau.substack.com/p/jamming-with-jev-and-claude-on-tidalcycles) — 🎵 用 Jev + Claude 在 TidalCycles 现场编码音乐里即兴演奏（Show HN）
 - [**Jev Plays Chess**](https://byrencheema.com/writing/jev-plays-chess/) — ♟️ 游戏系列第三弹：让 Jev 下国际象棋，每一步走子都是一道判断题
+- [**Desktop Pet**](https://pet.rxlab.app) — 🐾 桌面宠物：语音对话交给 LLM、姿态动作交给 Jev——两个模型的分工架构（Show HN）
 
 **🧪 脑洞：原来还能这么用**
 
@@ -315,6 +316,7 @@ const r = await client.systemOne({
 - [Jev-Driven SRE Diagnosis: What Worked and What Failed（SRE Gym）](https://www.sregym.com/blog/jev-driven-sre-diagnosis) — 47 分 HN：用 Jev 做 SRE 运维诊断的成败全复盘——哪些环节行、哪些环节翻车
 - [Jev for Voice Agents（veris.ai）](https://veris.ai/blog/jev-turn-detection) — 语音 agent 实战：用 Jev 做对话轮次检测（turn detection）
 - [Do Jev Decision Models work for mine operations?（hivekit）](https://hivekit.io/blog/do-jev-decision-models-work-for-mine-operations/) — 冷门行业实测：决策模型在矿场作业里到底行不行
+- [Use Jev to delete fundraising emails（Hugging Face 官方博客）](https://huggingface.co/blog/stephen-solka/use-jev-to-delete-fundraising-emails) — HF 官方博客的 Jev 实战：把筹款邮件从收件箱里判出去（5 分 HN）
 
 ## 社区讨论
 
@@ -367,7 +369,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的 System One 决策模型：不生成
 
 ## 局限与说明
 
-- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-08 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
+- **时效**：Jev 发布于 2026-09-15，本清单为 2026-10-09 快照；生态刚过一周大，变化极快，各项目 star 数会随时间变化；
 - **数字口径**：性能对比（193.6x / 444.6x、"零幻觉"）为官方自报口径，本清单在引用处已标注"官方声称"；批判性视角见 [TrueFoundry 分析](https://www.truefoundry.com/blog/typesafe-ai-jev)；
 - **不背书**：收录 ≠ 推荐，第三方项目质量请自行评估；GitHub 上另有多个同名 `awesome-jev` 仓库（部分为搬运聚合号），引用时注意甄别；
 - **Jev 本身的局限**（综合官方文档与第三方评测）：不能算术、计数、日期比较；不能生成文本；不支持图片 / 音频输入；state 可被对抗性文本操纵；置信度校准在分布漂移时可能失效。
