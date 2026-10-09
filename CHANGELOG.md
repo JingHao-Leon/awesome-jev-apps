@@ -2,6 +2,25 @@
 
 本清单以「生态快照」方式维护，所有日期均为快照日期。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.20.0] - 2026-10-10
+
+### 新增
+
+- 4 条条目（共 149 条）：
+  - [Jevman](https://opper.ai/jevman-benchmark/) — **68 分 HN（本周最高）**：各家决策模型同场竞技吃豆人，游戏系列基准化（趣味与实验）；
+  - [jev-bisect](https://github.com/mkly/jev-bisect) — 用 Jev 玩「higher / lower」数字猜谜（Show HN，趣味与实验）；
+  - [THX-01](https://pypi.org/project/thx01) — 能跑在智能手机上的开源决策模型（开源复刻与本地平替）；
+  - [HN: A16Z Invests in Jev Maker at $7.5B](https://news.ycombinator.com/item?id=50019952) — a16z 领投 TypeSafe（Bloomberg 报道付费墙，收讨论帖，社区讨论）。
+- 全量刷新 35 个 GitHub 条目的 star 快照。
+
+### 显著变化（2026-10-09 → 10-10）
+
+- [kouhxp/gutsy](https://github.com/kouhxp/gutsy)：46★ → 连续第三日上涨；[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：31.9k★；[firelex/jeff](https://github.com/firelex/jeff)：1.5k★；[jaredpalmer/kev](https://github.com/jaredpalmer/kev)：8.8k★；[kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)：1.1k★。
+
+### 未收录说明
+
+- Bloomberg 原文（a16z 投资报道）：付费墙 403，按 WSJ 先例收 HN 讨论帖链接替代。
+
 ## [0.19.0] - 2026-10-09
 
 ### 新增
